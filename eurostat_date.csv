@@ -1,0 +1,2101 @@
+"Index Num","Asylum Data",Year,Age,Sex,"Country of Asylum"
+0,5,2010,Total,Females,Austria
+1,0,2011,Total,Females,Austria
+2,0,2012,Total,Females,Austria
+3,0,2010,Total,Females,Belgium
+4,0,2011,Total,Females,Belgium
+5,0,2012,Total,Females,Belgium
+6,0,2010,Total,Females,Bulgaria
+7,0,2011,Total,Females,Bulgaria
+8,0,2012,Total,Females,Bulgaria
+9,0,2010,Total,Females,Switzerland
+10,0,2011,Total,Females,Switzerland
+11,10,2012,Total,Females,Switzerland
+12,0,2010,Total,Females,Cyprus
+13,0,2011,Total,Females,Cyprus
+14,0,2012,Total,Females,Cyprus
+15,0,2010,Total,Females,Czechia
+16,0,2011,Total,Females,Czechia
+17,0,2012,Total,Females,Czechia
+18,25,2010,Total,Females,"Germany (until 1990 former territory of the FRG)"
+19,35,2011,Total,Females,"Germany (until 1990 former territory of the FRG)"
+20,45,2012,Total,Females,"Germany (until 1990 former territory of the FRG)"
+21,0,2010,Total,Females,Denmark
+22,0,2011,Total,Females,Denmark
+23,5,2012,Total,Females,Denmark
+24,0,2010,Total,Females,Estonia
+25,0,2011,Total,Females,Estonia
+26,0,2012,Total,Females,Estonia
+27,0,2010,Total,Females,Greece
+28,0,2011,Total,Females,Greece
+29,0,2012,Total,Females,Greece
+30,0,2010,Total,Females,Spain
+31,0,2011,Total,Females,Spain
+32,0,2012,Total,Females,Spain
+33,35,2010,Total,Females,"European Union - 27 countries (from 2020)"
+34,40,2011,Total,Females,"European Union - 27 countries (from 2020)"
+35,95,2012,Total,Females,"European Union - 27 countries (from 2020)"
+36,35,2010,Total,Females,"European Union - 28 countries (2013-2020)"
+37,40,2011,Total,Females,"European Union - 28 countries (2013-2020)"
+38,100,2012,Total,Females,"European Union - 28 countries (2013-2020)"
+39,0,2010,Total,Females,Finland
+40,0,2011,Total,Females,Finland
+41,0,2012,Total,Females,Finland
+42,0,2010,Total,Females,France
+43,0,2011,Total,Females,France
+44,0,2012,Total,Females,France
+45,0,2010,Total,Females,Croatia
+46,0,2011,Total,Females,Croatia
+47,0,2012,Total,Females,Croatia
+48,0,2010,Total,Females,Hungary
+49,0,2011,Total,Females,Hungary
+50,0,2012,Total,Females,Hungary
+51,0,2010,Total,Females,Ireland
+52,0,2011,Total,Females,Ireland
+53,0,2012,Total,Females,Ireland
+54,0,2010,Total,Females,Iceland
+55,0,2011,Total,Females,Iceland
+56,0,2012,Total,Females,Iceland
+57,0,2010,Total,Females,Italy
+58,0,2011,Total,Females,Italy
+59,0,2012,Total,Females,Italy
+60,0,2010,Total,Females,Liechtenstein
+61,0,2011,Total,Females,Liechtenstein
+62,0,2012,Total,Females,Liechtenstein
+63,0,2010,Total,Females,Lithuania
+64,0,2011,Total,Females,Lithuania
+65,0,2012,Total,Females,Lithuania
+66,0,2010,Total,Females,Luxembourg
+67,0,2011,Total,Females,Luxembourg
+68,0,2012,Total,Females,Luxembourg
+69,0,2010,Total,Females,Latvia
+70,0,2011,Total,Females,Latvia
+71,0,2012,Total,Females,Latvia
+72,0,2010,Total,Females,Malta
+73,0,2011,Total,Females,Malta
+74,0,2012,Total,Females,Malta
+75,0,2010,Total,Females,Netherlands
+76,0,2011,Total,Females,Netherlands
+77,0,2012,Total,Females,Netherlands
+78,0,2010,Total,Females,Norway
+79,0,2011,Total,Females,Norway
+80,0,2012,Total,Females,Norway
+81,0,2010,Total,Females,Poland
+82,0,2011,Total,Females,Poland
+83,5,2012,Total,Females,Poland
+84,0,2010,Total,Females,Portugal
+85,0,2011,Total,Females,Portugal
+86,0,2012,Total,Females,Portugal
+87,0,2010,Total,Females,Romania
+88,0,2011,Total,Females,Romania
+89,0,2012,Total,Females,Romania
+90,5,2010,Total,Females,Sweden
+91,5,2011,Total,Females,Sweden
+92,40,2012,Total,Females,Sweden
+93,0,2010,Total,Females,Slovenia
+94,0,2011,Total,Females,Slovenia
+95,0,2012,Total,Females,Slovenia
+96,0,2010,Total,Females,Slovakia
+97,0,2011,Total,Females,Slovakia
+98,0,2012,Total,Females,Slovakia
+99,35,2010,Total,Females,Total
+100,40,2011,Total,Females,Total
+101,100,2012,Total,Females,Total
+102,5,2010,Total,Females,"United Kingdom"
+103,0,2011,Total,Females,"United Kingdom"
+104,5,2012,Total,Females,"United Kingdom"
+105,0,2010,Unknown,Females,Austria
+106,0,2011,Unknown,Females,Austria
+107,0,2012,Unknown,Females,Austria
+108,0,2010,Unknown,Females,Belgium
+109,0,2011,Unknown,Females,Belgium
+110,0,2012,Unknown,Females,Belgium
+111,0,2010,Unknown,Females,Bulgaria
+112,0,2011,Unknown,Females,Bulgaria
+113,0,2012,Unknown,Females,Bulgaria
+114,0,2010,Unknown,Females,Switzerland
+115,0,2011,Unknown,Females,Switzerland
+116,0,2012,Unknown,Females,Switzerland
+117,0,2010,Unknown,Females,Cyprus
+118,0,2011,Unknown,Females,Cyprus
+119,0,2012,Unknown,Females,Cyprus
+120,0,2010,Unknown,Females,Czechia
+121,0,2011,Unknown,Females,Czechia
+122,0,2012,Unknown,Females,Czechia
+123,0,2010,Unknown,Females,"Germany (until 1990 former territory of the FRG)"
+124,0,2011,Unknown,Females,"Germany (until 1990 former territory of the FRG)"
+125,0,2012,Unknown,Females,"Germany (until 1990 former territory of the FRG)"
+126,0,2010,Unknown,Females,Denmark
+127,0,2011,Unknown,Females,Denmark
+128,0,2012,Unknown,Females,Denmark
+129,0,2010,Unknown,Females,Estonia
+130,0,2011,Unknown,Females,Estonia
+131,0,2012,Unknown,Females,Estonia
+132,0,2010,Unknown,Females,Greece
+133,0,2011,Unknown,Females,Greece
+134,0,2012,Unknown,Females,Greece
+135,0,2010,Unknown,Females,Spain
+136,0,2011,Unknown,Females,Spain
+137,0,2012,Unknown,Females,Spain
+138,0,2010,Unknown,Females,"European Union - 27 countries (from 2020)"
+139,0,2011,Unknown,Females,"European Union - 27 countries (from 2020)"
+140,0,2012,Unknown,Females,"European Union - 27 countries (from 2020)"
+141,0,2010,Unknown,Females,"European Union - 28 countries (2013-2020)"
+142,0,2011,Unknown,Females,"European Union - 28 countries (2013-2020)"
+143,0,2012,Unknown,Females,"European Union - 28 countries (2013-2020)"
+144,0,2010,Unknown,Females,Finland
+145,0,2011,Unknown,Females,Finland
+146,0,2012,Unknown,Females,Finland
+147,0,2010,Unknown,Females,France
+148,0,2011,Unknown,Females,France
+149,0,2012,Unknown,Females,France
+150,0,2010,Unknown,Females,Croatia
+151,0,2011,Unknown,Females,Croatia
+152,0,2012,Unknown,Females,Croatia
+153,0,2010,Unknown,Females,Hungary
+154,0,2011,Unknown,Females,Hungary
+155,0,2012,Unknown,Females,Hungary
+156,0,2010,Unknown,Females,Ireland
+157,0,2011,Unknown,Females,Ireland
+158,0,2012,Unknown,Females,Ireland
+159,0,2010,Unknown,Females,Iceland
+160,0,2011,Unknown,Females,Iceland
+161,0,2012,Unknown,Females,Iceland
+162,0,2010,Unknown,Females,Italy
+163,0,2011,Unknown,Females,Italy
+164,0,2012,Unknown,Females,Italy
+165,0,2010,Unknown,Females,Liechtenstein
+166,0,2011,Unknown,Females,Liechtenstein
+167,0,2012,Unknown,Females,Liechtenstein
+168,0,2010,Unknown,Females,Lithuania
+169,0,2011,Unknown,Females,Lithuania
+170,0,2012,Unknown,Females,Lithuania
+171,0,2010,Unknown,Females,Luxembourg
+172,0,2011,Unknown,Females,Luxembourg
+173,0,2012,Unknown,Females,Luxembourg
+174,0,2010,Unknown,Females,Latvia
+175,0,2011,Unknown,Females,Latvia
+176,0,2012,Unknown,Females,Latvia
+177,0,2010,Unknown,Females,Malta
+178,0,2011,Unknown,Females,Malta
+179,0,2012,Unknown,Females,Malta
+180,0,2010,Unknown,Females,Netherlands
+181,0,2011,Unknown,Females,Netherlands
+182,0,2012,Unknown,Females,Netherlands
+183,0,2010,Unknown,Females,Norway
+184,0,2011,Unknown,Females,Norway
+185,0,2012,Unknown,Females,Norway
+186,0,2010,Unknown,Females,Poland
+187,0,2011,Unknown,Females,Poland
+188,0,2012,Unknown,Females,Poland
+189,0,2010,Unknown,Females,Portugal
+190,0,2011,Unknown,Females,Portugal
+191,0,2012,Unknown,Females,Portugal
+192,0,2010,Unknown,Females,Romania
+193,0,2011,Unknown,Females,Romania
+194,0,2012,Unknown,Females,Romania
+195,0,2010,Unknown,Females,Sweden
+196,0,2011,Unknown,Females,Sweden
+197,0,2012,Unknown,Females,Sweden
+198,0,2010,Unknown,Females,Slovenia
+199,0,2011,Unknown,Females,Slovenia
+200,0,2012,Unknown,Females,Slovenia
+201,0,2010,Unknown,Females,Slovakia
+202,0,2011,Unknown,Females,Slovakia
+203,0,2012,Unknown,Females,Slovakia
+204,0,2010,Unknown,Females,Total
+205,0,2011,Unknown,Females,Total
+206,0,2012,Unknown,Females,Total
+207,0,2010,Unknown,Females,"United Kingdom"
+208,0,2011,Unknown,Females,"United Kingdom"
+209,0,2012,Unknown,Females,"United Kingdom"
+210,0,2010,"From 14 to 15 years",Females,Austria
+211,0,2011,"From 14 to 15 years",Females,Austria
+212,0,2012,"From 14 to 15 years",Females,Austria
+213,0,2010,"From 14 to 15 years",Females,Belgium
+214,0,2011,"From 14 to 15 years",Females,Belgium
+215,0,2012,"From 14 to 15 years",Females,Belgium
+216,0,2010,"From 14 to 15 years",Females,Bulgaria
+217,0,2011,"From 14 to 15 years",Females,Bulgaria
+218,0,2012,"From 14 to 15 years",Females,Bulgaria
+219,0,2010,"From 14 to 15 years",Females,Switzerland
+220,0,2011,"From 14 to 15 years",Females,Switzerland
+221,0,2012,"From 14 to 15 years",Females,Switzerland
+222,0,2010,"From 14 to 15 years",Females,Cyprus
+223,0,2011,"From 14 to 15 years",Females,Cyprus
+224,0,2012,"From 14 to 15 years",Females,Cyprus
+225,0,2010,"From 14 to 15 years",Females,Czechia
+226,0,2011,"From 14 to 15 years",Females,Czechia
+227,0,2012,"From 14 to 15 years",Females,Czechia
+228,10,2010,"From 14 to 15 years",Females,"Germany (until 1990 former territory of the FRG)"
+229,5,2011,"From 14 to 15 years",Females,"Germany (until 1990 former territory of the FRG)"
+230,10,2012,"From 14 to 15 years",Females,"Germany (until 1990 former territory of the FRG)"
+231,0,2010,"From 14 to 15 years",Females,Denmark
+232,0,2011,"From 14 to 15 years",Females,Denmark
+233,0,2012,"From 14 to 15 years",Females,Denmark
+234,0,2010,"From 14 to 15 years",Females,Estonia
+235,0,2011,"From 14 to 15 years",Females,Estonia
+236,0,2012,"From 14 to 15 years",Females,Estonia
+237,0,2010,"From 14 to 15 years",Females,Greece
+238,0,2011,"From 14 to 15 years",Females,Greece
+239,0,2012,"From 14 to 15 years",Females,Greece
+240,0,2010,"From 14 to 15 years",Females,Spain
+241,0,2011,"From 14 to 15 years",Females,Spain
+242,0,2012,"From 14 to 15 years",Females,Spain
+243,15,2010,"From 14 to 15 years",Females,"European Union - 27 countries (from 2020)"
+244,10,2011,"From 14 to 15 years",Females,"European Union - 27 countries (from 2020)"
+245,20,2012,"From 14 to 15 years",Females,"European Union - 27 countries (from 2020)"
+246,15,2010,"From 14 to 15 years",Females,"European Union - 28 countries (2013-2020)"
+247,10,2011,"From 14 to 15 years",Females,"European Union - 28 countries (2013-2020)"
+248,20,2012,"From 14 to 15 years",Females,"European Union - 28 countries (2013-2020)"
+249,0,2010,"From 14 to 15 years",Females,Finland
+250,0,2011,"From 14 to 15 years",Females,Finland
+251,0,2012,"From 14 to 15 years",Females,Finland
+252,0,2010,"From 14 to 15 years",Females,France
+253,0,2011,"From 14 to 15 years",Females,France
+254,0,2012,"From 14 to 15 years",Females,France
+255,0,2010,"From 14 to 15 years",Females,Croatia
+256,0,2011,"From 14 to 15 years",Females,Croatia
+257,0,2012,"From 14 to 15 years",Females,Croatia
+258,0,2010,"From 14 to 15 years",Females,Hungary
+259,0,2011,"From 14 to 15 years",Females,Hungary
+260,0,2012,"From 14 to 15 years",Females,Hungary
+261,0,2010,"From 14 to 15 years",Females,Ireland
+262,0,2011,"From 14 to 15 years",Females,Ireland
+263,0,2012,"From 14 to 15 years",Females,Ireland
+264,0,2010,"From 14 to 15 years",Females,Iceland
+265,0,2011,"From 14 to 15 years",Females,Iceland
+266,0,2012,"From 14 to 15 years",Females,Iceland
+267,0,2010,"From 14 to 15 years",Females,Italy
+268,0,2011,"From 14 to 15 years",Females,Italy
+269,0,2012,"From 14 to 15 years",Females,Italy
+270,0,2010,"From 14 to 15 years",Females,Liechtenstein
+271,0,2011,"From 14 to 15 years",Females,Liechtenstein
+272,0,2012,"From 14 to 15 years",Females,Liechtenstein
+273,0,2010,"From 14 to 15 years",Females,Lithuania
+274,0,2011,"From 14 to 15 years",Females,Lithuania
+275,0,2012,"From 14 to 15 years",Females,Lithuania
+276,0,2010,"From 14 to 15 years",Females,Luxembourg
+277,0,2011,"From 14 to 15 years",Females,Luxembourg
+278,0,2012,"From 14 to 15 years",Females,Luxembourg
+279,0,2010,"From 14 to 15 years",Females,Latvia
+280,0,2011,"From 14 to 15 years",Females,Latvia
+281,0,2012,"From 14 to 15 years",Females,Latvia
+282,0,2010,"From 14 to 15 years",Females,Malta
+283,0,2011,"From 14 to 15 years",Females,Malta
+284,0,2012,"From 14 to 15 years",Females,Malta
+285,0,2010,"From 14 to 15 years",Females,Netherlands
+286,0,2011,"From 14 to 15 years",Females,Netherlands
+287,0,2012,"From 14 to 15 years",Females,Netherlands
+288,0,2010,"From 14 to 15 years",Females,Norway
+289,0,2011,"From 14 to 15 years",Females,Norway
+290,0,2012,"From 14 to 15 years",Females,Norway
+291,0,2010,"From 14 to 15 years",Females,Poland
+292,0,2011,"From 14 to 15 years",Females,Poland
+293,0,2012,"From 14 to 15 years",Females,Poland
+294,0,2010,"From 14 to 15 years",Females,Portugal
+295,0,2011,"From 14 to 15 years",Females,Portugal
+296,0,2012,"From 14 to 15 years",Females,Portugal
+297,0,2010,"From 14 to 15 years",Females,Romania
+298,0,2011,"From 14 to 15 years",Females,Romania
+299,0,2012,"From 14 to 15 years",Females,Romania
+300,0,2010,"From 14 to 15 years",Females,Sweden
+301,0,2011,"From 14 to 15 years",Females,Sweden
+302,5,2012,"From 14 to 15 years",Females,Sweden
+303,0,2010,"From 14 to 15 years",Females,Slovenia
+304,0,2011,"From 14 to 15 years",Females,Slovenia
+305,0,2012,"From 14 to 15 years",Females,Slovenia
+306,0,2010,"From 14 to 15 years",Females,Slovakia
+307,0,2011,"From 14 to 15 years",Females,Slovakia
+308,0,2012,"From 14 to 15 years",Females,Slovakia
+309,15,2010,"From 14 to 15 years",Females,Total
+310,10,2011,"From 14 to 15 years",Females,Total
+311,20,2012,"From 14 to 15 years",Females,Total
+312,0,2010,"From 14 to 15 years",Females,"United Kingdom"
+313,0,2011,"From 14 to 15 years",Females,"United Kingdom"
+314,0,2012,"From 14 to 15 years",Females,"United Kingdom"
+315,0,2010,"From 16 to 17 years",Females,Austria
+316,0,2011,"From 16 to 17 years",Females,Austria
+317,0,2012,"From 16 to 17 years",Females,Austria
+318,0,2010,"From 16 to 17 years",Females,Belgium
+319,0,2011,"From 16 to 17 years",Females,Belgium
+320,0,2012,"From 16 to 17 years",Females,Belgium
+321,0,2010,"From 16 to 17 years",Females,Bulgaria
+322,0,2011,"From 16 to 17 years",Females,Bulgaria
+323,0,2012,"From 16 to 17 years",Females,Bulgaria
+324,0,2010,"From 16 to 17 years",Females,Switzerland
+325,0,2011,"From 16 to 17 years",Females,Switzerland
+326,5,2012,"From 16 to 17 years",Females,Switzerland
+327,0,2010,"From 16 to 17 years",Females,Cyprus
+328,0,2011,"From 16 to 17 years",Females,Cyprus
+329,0,2012,"From 16 to 17 years",Females,Cyprus
+330,0,2010,"From 16 to 17 years",Females,Czechia
+331,0,2011,"From 16 to 17 years",Females,Czechia
+332,0,2012,"From 16 to 17 years",Females,Czechia
+333,10,2010,"From 16 to 17 years",Females,"Germany (until 1990 former territory of the FRG)"
+334,25,2011,"From 16 to 17 years",Females,"Germany (until 1990 former territory of the FRG)"
+335,20,2012,"From 16 to 17 years",Females,"Germany (until 1990 former territory of the FRG)"
+336,0,2010,"From 16 to 17 years",Females,Denmark
+337,0,2011,"From 16 to 17 years",Females,Denmark
+338,0,2012,"From 16 to 17 years",Females,Denmark
+339,0,2010,"From 16 to 17 years",Females,Estonia
+340,0,2011,"From 16 to 17 years",Females,Estonia
+341,0,2012,"From 16 to 17 years",Females,Estonia
+342,0,2010,"From 16 to 17 years",Females,Greece
+343,0,2011,"From 16 to 17 years",Females,Greece
+344,0,2012,"From 16 to 17 years",Females,Greece
+345,0,2010,"From 16 to 17 years",Females,Spain
+346,0,2011,"From 16 to 17 years",Females,Spain
+347,0,2012,"From 16 to 17 years",Females,Spain
+348,15,2010,"From 16 to 17 years",Females,"European Union - 27 countries (from 2020)"
+349,30,2011,"From 16 to 17 years",Females,"European Union - 27 countries (from 2020)"
+350,50,2012,"From 16 to 17 years",Females,"European Union - 27 countries (from 2020)"
+351,15,2010,"From 16 to 17 years",Females,"European Union - 28 countries (2013-2020)"
+352,30,2011,"From 16 to 17 years",Females,"European Union - 28 countries (2013-2020)"
+353,50,2012,"From 16 to 17 years",Females,"European Union - 28 countries (2013-2020)"
+354,0,2010,"From 16 to 17 years",Females,Finland
+355,0,2011,"From 16 to 17 years",Females,Finland
+356,0,2012,"From 16 to 17 years",Females,Finland
+357,0,2010,"From 16 to 17 years",Females,France
+358,0,2011,"From 16 to 17 years",Females,France
+359,0,2012,"From 16 to 17 years",Females,France
+360,0,2010,"From 16 to 17 years",Females,Croatia
+361,0,2011,"From 16 to 17 years",Females,Croatia
+362,0,2012,"From 16 to 17 years",Females,Croatia
+363,0,2010,"From 16 to 17 years",Females,Hungary
+364,0,2011,"From 16 to 17 years",Females,Hungary
+365,0,2012,"From 16 to 17 years",Females,Hungary
+366,0,2010,"From 16 to 17 years",Females,Ireland
+367,0,2011,"From 16 to 17 years",Females,Ireland
+368,0,2012,"From 16 to 17 years",Females,Ireland
+369,0,2010,"From 16 to 17 years",Females,Iceland
+370,0,2011,"From 16 to 17 years",Females,Iceland
+371,0,2012,"From 16 to 17 years",Females,Iceland
+372,0,2010,"From 16 to 17 years",Females,Italy
+373,0,2011,"From 16 to 17 years",Females,Italy
+374,0,2012,"From 16 to 17 years",Females,Italy
+375,0,2010,"From 16 to 17 years",Females,Liechtenstein
+376,0,2011,"From 16 to 17 years",Females,Liechtenstein
+377,0,2012,"From 16 to 17 years",Females,Liechtenstein
+378,0,2010,"From 16 to 17 years",Females,Lithuania
+379,0,2011,"From 16 to 17 years",Females,Lithuania
+380,0,2012,"From 16 to 17 years",Females,Lithuania
+381,0,2010,"From 16 to 17 years",Females,Luxembourg
+382,0,2011,"From 16 to 17 years",Females,Luxembourg
+383,0,2012,"From 16 to 17 years",Females,Luxembourg
+384,0,2010,"From 16 to 17 years",Females,Latvia
+385,0,2011,"From 16 to 17 years",Females,Latvia
+386,0,2012,"From 16 to 17 years",Females,Latvia
+387,0,2010,"From 16 to 17 years",Females,Malta
+388,0,2011,"From 16 to 17 years",Females,Malta
+389,0,2012,"From 16 to 17 years",Females,Malta
+390,0,2010,"From 16 to 17 years",Females,Netherlands
+391,0,2011,"From 16 to 17 years",Females,Netherlands
+392,0,2012,"From 16 to 17 years",Females,Netherlands
+393,0,2010,"From 16 to 17 years",Females,Norway
+394,0,2011,"From 16 to 17 years",Females,Norway
+395,0,2012,"From 16 to 17 years",Females,Norway
+396,0,2010,"From 16 to 17 years",Females,Poland
+397,0,2011,"From 16 to 17 years",Females,Poland
+398,0,2012,"From 16 to 17 years",Females,Poland
+399,0,2010,"From 16 to 17 years",Females,Portugal
+400,0,2011,"From 16 to 17 years",Females,Portugal
+401,0,2012,"From 16 to 17 years",Females,Portugal
+402,0,2010,"From 16 to 17 years",Females,Romania
+403,0,2011,"From 16 to 17 years",Females,Romania
+404,0,2012,"From 16 to 17 years",Females,Romania
+405,0,2010,"From 16 to 17 years",Females,Sweden
+406,5,2011,"From 16 to 17 years",Females,Sweden
+407,20,2012,"From 16 to 17 years",Females,Sweden
+408,0,2010,"From 16 to 17 years",Females,Slovenia
+409,0,2011,"From 16 to 17 years",Females,Slovenia
+410,0,2012,"From 16 to 17 years",Females,Slovenia
+411,0,2010,"From 16 to 17 years",Females,Slovakia
+412,0,2011,"From 16 to 17 years",Females,Slovakia
+413,0,2012,"From 16 to 17 years",Females,Slovakia
+414,15,2010,"From 16 to 17 years",Females,Total
+415,30,2011,"From 16 to 17 years",Females,Total
+416,50,2012,"From 16 to 17 years",Females,Total
+417,0,2010,"From 16 to 17 years",Females,"United Kingdom"
+418,0,2011,"From 16 to 17 years",Females,"United Kingdom"
+419,0,2012,"From 16 to 17 years",Females,"United Kingdom"
+420,0,2010,"Less than 14 years",Females,Austria
+421,0,2011,"Less than 14 years",Females,Austria
+422,0,2012,"Less than 14 years",Females,Austria
+423,0,2010,"Less than 14 years",Females,Belgium
+424,0,2011,"Less than 14 years",Females,Belgium
+425,0,2012,"Less than 14 years",Females,Belgium
+426,0,2010,"Less than 14 years",Females,Bulgaria
+427,0,2011,"Less than 14 years",Females,Bulgaria
+428,0,2012,"Less than 14 years",Females,Bulgaria
+429,0,2010,"Less than 14 years",Females,Switzerland
+430,0,2011,"Less than 14 years",Females,Switzerland
+431,0,2012,"Less than 14 years",Females,Switzerland
+432,0,2010,"Less than 14 years",Females,Cyprus
+433,0,2011,"Less than 14 years",Females,Cyprus
+434,0,2012,"Less than 14 years",Females,Cyprus
+435,0,2010,"Less than 14 years",Females,Czechia
+436,0,2011,"Less than 14 years",Females,Czechia
+437,0,2012,"Less than 14 years",Females,Czechia
+438,5,2010,"Less than 14 years",Females,"Germany (until 1990 former territory of the FRG)"
+439,0,2011,"Less than 14 years",Females,"Germany (until 1990 former territory of the FRG)"
+440,10,2012,"Less than 14 years",Females,"Germany (until 1990 former territory of the FRG)"
+441,0,2010,"Less than 14 years",Females,Denmark
+442,0,2011,"Less than 14 years",Females,Denmark
+443,0,2012,"Less than 14 years",Females,Denmark
+444,0,2010,"Less than 14 years",Females,Estonia
+445,0,2011,"Less than 14 years",Females,Estonia
+446,0,2012,"Less than 14 years",Females,Estonia
+447,0,2010,"Less than 14 years",Females,Greece
+448,0,2011,"Less than 14 years",Females,Greece
+449,0,2012,"Less than 14 years",Females,Greece
+450,0,2010,"Less than 14 years",Females,Spain
+451,0,2011,"Less than 14 years",Females,Spain
+452,0,2012,"Less than 14 years",Females,Spain
+453,5,2010,"Less than 14 years",Females,"European Union - 27 countries (from 2020)"
+454,0,2011,"Less than 14 years",Females,"European Union - 27 countries (from 2020)"
+455,25,2012,"Less than 14 years",Females,"European Union - 27 countries (from 2020)"
+456,5,2010,"Less than 14 years",Females,"European Union - 28 countries (2013-2020)"
+457,0,2011,"Less than 14 years",Females,"European Union - 28 countries (2013-2020)"
+458,25,2012,"Less than 14 years",Females,"European Union - 28 countries (2013-2020)"
+459,0,2010,"Less than 14 years",Females,Finland
+460,0,2011,"Less than 14 years",Females,Finland
+461,0,2012,"Less than 14 years",Females,Finland
+462,0,2010,"Less than 14 years",Females,France
+463,0,2011,"Less than 14 years",Females,France
+464,0,2012,"Less than 14 years",Females,France
+465,0,2010,"Less than 14 years",Females,Croatia
+466,0,2011,"Less than 14 years",Females,Croatia
+467,0,2012,"Less than 14 years",Females,Croatia
+468,0,2010,"Less than 14 years",Females,Hungary
+469,0,2011,"Less than 14 years",Females,Hungary
+470,0,2012,"Less than 14 years",Females,Hungary
+471,0,2010,"Less than 14 years",Females,Ireland
+472,0,2011,"Less than 14 years",Females,Ireland
+473,0,2012,"Less than 14 years",Females,Ireland
+474,0,2010,"Less than 14 years",Females,Iceland
+475,0,2011,"Less than 14 years",Females,Iceland
+476,0,2012,"Less than 14 years",Females,Iceland
+477,0,2010,"Less than 14 years",Females,Italy
+478,0,2011,"Less than 14 years",Females,Italy
+479,0,2012,"Less than 14 years",Females,Italy
+480,0,2010,"Less than 14 years",Females,Liechtenstein
+481,0,2011,"Less than 14 years",Females,Liechtenstein
+482,0,2012,"Less than 14 years",Females,Liechtenstein
+483,0,2010,"Less than 14 years",Females,Lithuania
+484,0,2011,"Less than 14 years",Females,Lithuania
+485,0,2012,"Less than 14 years",Females,Lithuania
+486,0,2010,"Less than 14 years",Females,Luxembourg
+487,0,2011,"Less than 14 years",Females,Luxembourg
+488,0,2012,"Less than 14 years",Females,Luxembourg
+489,0,2010,"Less than 14 years",Females,Latvia
+490,0,2011,"Less than 14 years",Females,Latvia
+491,0,2012,"Less than 14 years",Females,Latvia
+492,0,2010,"Less than 14 years",Females,Malta
+493,0,2011,"Less than 14 years",Females,Malta
+494,0,2012,"Less than 14 years",Females,Malta
+495,0,2010,"Less than 14 years",Females,Netherlands
+496,0,2011,"Less than 14 years",Females,Netherlands
+497,0,2012,"Less than 14 years",Females,Netherlands
+498,0,2010,"Less than 14 years",Females,Norway
+499,0,2011,"Less than 14 years",Females,Norway
+500,0,2012,"Less than 14 years",Females,Norway
+501,0,2010,"Less than 14 years",Females,Poland
+502,0,2011,"Less than 14 years",Females,Poland
+503,0,2012,"Less than 14 years",Females,Poland
+504,0,2010,"Less than 14 years",Females,Portugal
+505,0,2011,"Less than 14 years",Females,Portugal
+506,0,2012,"Less than 14 years",Females,Portugal
+507,0,2010,"Less than 14 years",Females,Romania
+508,0,2011,"Less than 14 years",Females,Romania
+509,0,2012,"Less than 14 years",Females,Romania
+510,0,2010,"Less than 14 years",Females,Sweden
+511,0,2011,"Less than 14 years",Females,Sweden
+512,15,2012,"Less than 14 years",Females,Sweden
+513,0,2010,"Less than 14 years",Females,Slovenia
+514,0,2011,"Less than 14 years",Females,Slovenia
+515,0,2012,"Less than 14 years",Females,Slovenia
+516,0,2010,"Less than 14 years",Females,Slovakia
+517,0,2011,"Less than 14 years",Females,Slovakia
+518,0,2012,"Less than 14 years",Females,Slovakia
+519,5,2010,"Less than 14 years",Females,Total
+520,0,2011,"Less than 14 years",Females,Total
+521,25,2012,"Less than 14 years",Females,Total
+522,0,2010,"Less than 14 years",Females,"United Kingdom"
+523,0,2011,"Less than 14 years",Females,"United Kingdom"
+524,0,2012,"Less than 14 years",Females,"United Kingdom"
+525,5,2010,Total,Males,Austria
+526,10,2011,Total,Males,Austria
+527,25,2012,Total,Males,Austria
+528,5,2010,Total,Males,Belgium
+529,5,2011,Total,Males,Belgium
+530,10,2012,Total,Males,Belgium
+531,0,2010,Total,Males,Bulgaria
+532,5,2011,Total,Males,Bulgaria
+533,15,2012,Total,Males,Bulgaria
+534,5,2010,Total,Males,Switzerland
+535,10,2011,Total,Males,Switzerland
+536,15,2012,Total,Males,Switzerland
+537,0,2010,Total,Males,Cyprus
+538,5,2011,Total,Males,Cyprus
+539,0,2012,Total,Males,Cyprus
+540,0,2010,Total,Males,Czechia
+541,0,2011,Total,Males,Czechia
+542,0,2012,Total,Males,Czechia
+543,35,2010,Total,Males,"Germany (until 1990 former territory of the FRG)"
+544,50,2011,Total,Males,"Germany (until 1990 former territory of the FRG)"
+545,85,2012,Total,Males,"Germany (until 1990 former territory of the FRG)"
+546,15,2010,Total,Males,Denmark
+547,5,2011,Total,Males,Denmark
+548,10,2012,Total,Males,Denmark
+549,0,2010,Total,Males,Estonia
+550,0,2011,Total,Males,Estonia
+551,0,2012,Total,Males,Estonia
+552,0,2010,Total,Males,Greece
+553,0,2011,Total,Males,Greece
+554,0,2012,Total,Males,Greece
+555,0,2010,Total,Males,Spain
+556,0,2011,Total,Males,Spain
+557,0,2012,Total,Males,Spain
+558,75,2010,Total,Males,"European Union - 27 countries (from 2020)"
+559,110,2011,Total,Males,"European Union - 27 countries (from 2020)"
+560,275,2012,Total,Males,"European Union - 27 countries (from 2020)"
+561,75,2010,Total,Males,"European Union - 28 countries (2013-2020)"
+562,115,2011,Total,Males,"European Union - 28 countries (2013-2020)"
+563,295,2012,Total,Males,"European Union - 28 countries (2013-2020)"
+564,0,2010,Total,Males,Finland
+565,5,2011,Total,Males,Finland
+566,0,2012,Total,Males,Finland
+567,0,2010,Total,Males,France
+568,0,2011,Total,Males,France
+569,0,2012,Total,Males,France
+570,0,2010,Total,Males,Croatia
+571,0,2011,Total,Males,Croatia
+572,5,2012,Total,Males,Croatia
+573,0,2010,Total,Males,Hungary
+574,0,2011,Total,Males,Hungary
+575,10,2012,Total,Males,Hungary
+576,0,2010,Total,Males,Ireland
+577,0,2011,Total,Males,Ireland
+578,0,2012,Total,Males,Ireland
+579,0,2010,Total,Males,Iceland
+580,0,2011,Total,Males,Iceland
+581,0,2012,Total,Males,Iceland
+582,0,2010,Total,Males,Italy
+583,5,2011,Total,Males,Italy
+584,0,2012,Total,Males,Italy
+585,0,2010,Total,Males,Liechtenstein
+586,0,2011,Total,Males,Liechtenstein
+587,0,2012,Total,Males,Liechtenstein
+588,0,2010,Total,Males,Lithuania
+589,0,2011,Total,Males,Lithuania
+590,0,2012,Total,Males,Lithuania
+591,0,2010,Total,Males,Luxembourg
+592,0,2011,Total,Males,Luxembourg
+593,0,2012,Total,Males,Luxembourg
+594,0,2010,Total,Males,Latvia
+595,0,2011,Total,Males,Latvia
+596,0,2012,Total,Males,Latvia
+597,0,2010,Total,Males,Malta
+598,0,2011,Total,Males,Malta
+599,0,2012,Total,Males,Malta
+600,0,2010,Total,Males,Netherlands
+601,5,2011,Total,Males,Netherlands
+602,5,2012,Total,Males,Netherlands
+603,5,2010,Total,Males,Norway
+604,0,2011,Total,Males,Norway
+605,5,2012,Total,Males,Norway
+606,0,2010,Total,Males,Poland
+607,0,2011,Total,Males,Poland
+608,5,2012,Total,Males,Poland
+609,0,2010,Total,Males,Portugal
+610,0,2011,Total,Males,Portugal
+611,0,2012,Total,Males,Portugal
+612,0,2010,Total,Males,Romania
+613,0,2011,Total,Males,Romania
+614,10,2012,Total,Males,Romania
+615,10,2010,Total,Males,Sweden
+616,15,2011,Total,Males,Sweden
+617,80,2012,Total,Males,Sweden
+618,0,2010,Total,Males,Slovenia
+619,0,2011,Total,Males,Slovenia
+620,5,2012,Total,Males,Slovenia
+621,0,2010,Total,Males,Slovakia
+622,0,2011,Total,Males,Slovakia
+623,0,2012,Total,Males,Slovakia
+624,75,2010,Total,Males,Total
+625,115,2011,Total,Males,Total
+626,295,2012,Total,Males,Total
+627,5,2010,Total,Males,"United Kingdom"
+628,5,2011,Total,Males,"United Kingdom"
+629,20,2012,Total,Males,"United Kingdom"
+630,0,2010,Unknown,Males,Austria
+631,0,2011,Unknown,Males,Austria
+632,0,2012,Unknown,Males,Austria
+633,0,2010,Unknown,Males,Belgium
+634,0,2011,Unknown,Males,Belgium
+635,0,2012,Unknown,Males,Belgium
+636,0,2010,Unknown,Males,Bulgaria
+637,0,2011,Unknown,Males,Bulgaria
+638,0,2012,Unknown,Males,Bulgaria
+639,0,2010,Unknown,Males,Switzerland
+640,0,2011,Unknown,Males,Switzerland
+641,0,2012,Unknown,Males,Switzerland
+642,0,2010,Unknown,Males,Cyprus
+643,0,2011,Unknown,Males,Cyprus
+644,0,2012,Unknown,Males,Cyprus
+645,0,2010,Unknown,Males,Czechia
+646,0,2011,Unknown,Males,Czechia
+647,0,2012,Unknown,Males,Czechia
+648,0,2010,Unknown,Males,"Germany (until 1990 former territory of the FRG)"
+649,0,2011,Unknown,Males,"Germany (until 1990 former territory of the FRG)"
+650,0,2012,Unknown,Males,"Germany (until 1990 former territory of the FRG)"
+651,0,2010,Unknown,Males,Denmark
+652,0,2011,Unknown,Males,Denmark
+653,0,2012,Unknown,Males,Denmark
+654,0,2010,Unknown,Males,Estonia
+655,0,2011,Unknown,Males,Estonia
+656,0,2012,Unknown,Males,Estonia
+657,0,2010,Unknown,Males,Greece
+658,0,2011,Unknown,Males,Greece
+659,0,2012,Unknown,Males,Greece
+660,0,2010,Unknown,Males,Spain
+661,0,2011,Unknown,Males,Spain
+662,0,2012,Unknown,Males,Spain
+663,0,2010,Unknown,Males,"European Union - 27 countries (from 2020)"
+664,0,2011,Unknown,Males,"European Union - 27 countries (from 2020)"
+665,0,2012,Unknown,Males,"European Union - 27 countries (from 2020)"
+666,0,2010,Unknown,Males,"European Union - 28 countries (2013-2020)"
+667,5,2011,Unknown,Males,"European Union - 28 countries (2013-2020)"
+668,5,2012,Unknown,Males,"European Union - 28 countries (2013-2020)"
+669,0,2010,Unknown,Males,Finland
+670,0,2011,Unknown,Males,Finland
+671,0,2012,Unknown,Males,Finland
+672,0,2010,Unknown,Males,France
+673,0,2011,Unknown,Males,France
+674,0,2012,Unknown,Males,France
+675,0,2010,Unknown,Males,Croatia
+676,0,2011,Unknown,Males,Croatia
+677,0,2012,Unknown,Males,Croatia
+678,0,2010,Unknown,Males,Hungary
+679,0,2011,Unknown,Males,Hungary
+680,0,2012,Unknown,Males,Hungary
+681,0,2010,Unknown,Males,Ireland
+682,0,2011,Unknown,Males,Ireland
+683,0,2012,Unknown,Males,Ireland
+684,0,2010,Unknown,Males,Iceland
+685,0,2011,Unknown,Males,Iceland
+686,0,2012,Unknown,Males,Iceland
+687,0,2010,Unknown,Males,Italy
+688,0,2011,Unknown,Males,Italy
+689,0,2012,Unknown,Males,Italy
+690,0,2010,Unknown,Males,Liechtenstein
+691,0,2011,Unknown,Males,Liechtenstein
+692,0,2012,Unknown,Males,Liechtenstein
+693,0,2010,Unknown,Males,Lithuania
+694,0,2011,Unknown,Males,Lithuania
+695,0,2012,Unknown,Males,Lithuania
+696,0,2010,Unknown,Males,Luxembourg
+697,0,2011,Unknown,Males,Luxembourg
+698,0,2012,Unknown,Males,Luxembourg
+699,0,2010,Unknown,Males,Latvia
+700,0,2011,Unknown,Males,Latvia
+701,0,2012,Unknown,Males,Latvia
+702,0,2010,Unknown,Males,Malta
+703,0,2011,Unknown,Males,Malta
+704,0,2012,Unknown,Males,Malta
+705,0,2010,Unknown,Males,Netherlands
+706,0,2011,Unknown,Males,Netherlands
+707,0,2012,Unknown,Males,Netherlands
+708,0,2010,Unknown,Males,Norway
+709,0,2011,Unknown,Males,Norway
+710,0,2012,Unknown,Males,Norway
+711,0,2010,Unknown,Males,Poland
+712,0,2011,Unknown,Males,Poland
+713,0,2012,Unknown,Males,Poland
+714,0,2010,Unknown,Males,Portugal
+715,0,2011,Unknown,Males,Portugal
+716,0,2012,Unknown,Males,Portugal
+717,0,2010,Unknown,Males,Romania
+718,0,2011,Unknown,Males,Romania
+719,0,2012,Unknown,Males,Romania
+720,0,2010,Unknown,Males,Sweden
+721,0,2011,Unknown,Males,Sweden
+722,0,2012,Unknown,Males,Sweden
+723,0,2010,Unknown,Males,Slovenia
+724,0,2011,Unknown,Males,Slovenia
+725,0,2012,Unknown,Males,Slovenia
+726,0,2010,Unknown,Males,Slovakia
+727,0,2011,Unknown,Males,Slovakia
+728,0,2012,Unknown,Males,Slovakia
+729,0,2010,Unknown,Males,Total
+730,5,2011,Unknown,Males,Total
+731,5,2012,Unknown,Males,Total
+732,0,2010,Unknown,Males,"United Kingdom"
+733,0,2011,Unknown,Males,"United Kingdom"
+734,5,2012,Unknown,Males,"United Kingdom"
+735,0,2010,"From 14 to 15 years",Males,Austria
+736,5,2011,"From 14 to 15 years",Males,Austria
+737,5,2012,"From 14 to 15 years",Males,Austria
+738,0,2010,"From 14 to 15 years",Males,Belgium
+739,0,2011,"From 14 to 15 years",Males,Belgium
+740,0,2012,"From 14 to 15 years",Males,Belgium
+741,0,2010,"From 14 to 15 years",Males,Bulgaria
+742,0,2011,"From 14 to 15 years",Males,Bulgaria
+743,5,2012,"From 14 to 15 years",Males,Bulgaria
+744,0,2010,"From 14 to 15 years",Males,Switzerland
+745,0,2011,"From 14 to 15 years",Males,Switzerland
+746,5,2012,"From 14 to 15 years",Males,Switzerland
+747,0,2010,"From 14 to 15 years",Males,Cyprus
+748,0,2011,"From 14 to 15 years",Males,Cyprus
+749,0,2012,"From 14 to 15 years",Males,Cyprus
+750,0,2010,"From 14 to 15 years",Males,Czechia
+751,0,2011,"From 14 to 15 years",Males,Czechia
+752,0,2012,"From 14 to 15 years",Males,Czechia
+753,5,2010,"From 14 to 15 years",Males,"Germany (until 1990 former territory of the FRG)"
+754,15,2011,"From 14 to 15 years",Males,"Germany (until 1990 former territory of the FRG)"
+755,15,2012,"From 14 to 15 years",Males,"Germany (until 1990 former territory of the FRG)"
+756,0,2010,"From 14 to 15 years",Males,Denmark
+757,0,2011,"From 14 to 15 years",Males,Denmark
+758,5,2012,"From 14 to 15 years",Males,Denmark
+759,0,2010,"From 14 to 15 years",Males,Estonia
+760,0,2011,"From 14 to 15 years",Males,Estonia
+761,0,2012,"From 14 to 15 years",Males,Estonia
+762,0,2010,"From 14 to 15 years",Males,Greece
+763,0,2011,"From 14 to 15 years",Males,Greece
+764,0,2012,"From 14 to 15 years",Males,Greece
+765,0,2010,"From 14 to 15 years",Males,Spain
+766,0,2011,"From 14 to 15 years",Males,Spain
+767,0,2012,"From 14 to 15 years",Males,Spain
+768,10,2010,"From 14 to 15 years",Males,"European Union - 27 countries (from 2020)"
+769,30,2011,"From 14 to 15 years",Males,"European Union - 27 countries (from 2020)"
+770,50,2012,"From 14 to 15 years",Males,"European Union - 27 countries (from 2020)"
+771,10,2010,"From 14 to 15 years",Males,"European Union - 28 countries (2013-2020)"
+772,30,2011,"From 14 to 15 years",Males,"European Union - 28 countries (2013-2020)"
+773,50,2012,"From 14 to 15 years",Males,"European Union - 28 countries (2013-2020)"
+774,0,2010,"From 14 to 15 years",Males,Finland
+775,0,2011,"From 14 to 15 years",Males,Finland
+776,0,2012,"From 14 to 15 years",Males,Finland
+777,0,2010,"From 14 to 15 years",Males,France
+778,0,2011,"From 14 to 15 years",Males,France
+779,0,2012,"From 14 to 15 years",Males,France
+780,0,2010,"From 14 to 15 years",Males,Croatia
+781,0,2011,"From 14 to 15 years",Males,Croatia
+782,0,2012,"From 14 to 15 years",Males,Croatia
+783,0,2010,"From 14 to 15 years",Males,Hungary
+784,0,2011,"From 14 to 15 years",Males,Hungary
+785,5,2012,"From 14 to 15 years",Males,Hungary
+786,0,2010,"From 14 to 15 years",Males,Ireland
+787,0,2011,"From 14 to 15 years",Males,Ireland
+788,0,2012,"From 14 to 15 years",Males,Ireland
+789,0,2010,"From 14 to 15 years",Males,Iceland
+790,0,2011,"From 14 to 15 years",Males,Iceland
+791,0,2012,"From 14 to 15 years",Males,Iceland
+792,0,2010,"From 14 to 15 years",Males,Italy
+793,0,2011,"From 14 to 15 years",Males,Italy
+794,0,2012,"From 14 to 15 years",Males,Italy
+795,0,2010,"From 14 to 15 years",Males,Liechtenstein
+796,0,2011,"From 14 to 15 years",Males,Liechtenstein
+797,0,2012,"From 14 to 15 years",Males,Liechtenstein
+798,0,2010,"From 14 to 15 years",Males,Lithuania
+799,0,2011,"From 14 to 15 years",Males,Lithuania
+800,0,2012,"From 14 to 15 years",Males,Lithuania
+801,0,2010,"From 14 to 15 years",Males,Luxembourg
+802,0,2011,"From 14 to 15 years",Males,Luxembourg
+803,0,2012,"From 14 to 15 years",Males,Luxembourg
+804,0,2010,"From 14 to 15 years",Males,Latvia
+805,0,2011,"From 14 to 15 years",Males,Latvia
+806,0,2012,"From 14 to 15 years",Males,Latvia
+807,0,2010,"From 14 to 15 years",Males,Malta
+808,0,2011,"From 14 to 15 years",Males,Malta
+809,0,2012,"From 14 to 15 years",Males,Malta
+810,0,2010,"From 14 to 15 years",Males,Netherlands
+811,0,2011,"From 14 to 15 years",Males,Netherlands
+812,0,2012,"From 14 to 15 years",Males,Netherlands
+813,0,2010,"From 14 to 15 years",Males,Norway
+814,0,2011,"From 14 to 15 years",Males,Norway
+815,0,2012,"From 14 to 15 years",Males,Norway
+816,0,2010,"From 14 to 15 years",Males,Poland
+817,0,2011,"From 14 to 15 years",Males,Poland
+818,0,2012,"From 14 to 15 years",Males,Poland
+819,0,2010,"From 14 to 15 years",Males,Portugal
+820,0,2011,"From 14 to 15 years",Males,Portugal
+821,0,2012,"From 14 to 15 years",Males,Portugal
+822,0,2010,"From 14 to 15 years",Males,Romania
+823,0,2011,"From 14 to 15 years",Males,Romania
+824,0,2012,"From 14 to 15 years",Males,Romania
+825,5,2010,"From 14 to 15 years",Males,Sweden
+826,0,2011,"From 14 to 15 years",Males,Sweden
+827,10,2012,"From 14 to 15 years",Males,Sweden
+828,0,2010,"From 14 to 15 years",Males,Slovenia
+829,0,2011,"From 14 to 15 years",Males,Slovenia
+830,0,2012,"From 14 to 15 years",Males,Slovenia
+831,0,2010,"From 14 to 15 years",Males,Slovakia
+832,0,2011,"From 14 to 15 years",Males,Slovakia
+833,0,2012,"From 14 to 15 years",Males,Slovakia
+834,10,2010,"From 14 to 15 years",Males,Total
+835,30,2011,"From 14 to 15 years",Males,Total
+836,50,2012,"From 14 to 15 years",Males,Total
+837,0,2010,"From 14 to 15 years",Males,"United Kingdom"
+838,0,2011,"From 14 to 15 years",Males,"United Kingdom"
+839,0,2012,"From 14 to 15 years",Males,"United Kingdom"
+840,5,2010,"From 16 to 17 years",Males,Austria
+841,5,2011,"From 16 to 17 years",Males,Austria
+842,20,2012,"From 16 to 17 years",Males,Austria
+843,5,2010,"From 16 to 17 years",Males,Belgium
+844,0,2011,"From 16 to 17 years",Males,Belgium
+845,5,2012,"From 16 to 17 years",Males,Belgium
+846,0,2010,"From 16 to 17 years",Males,Bulgaria
+847,0,2011,"From 16 to 17 years",Males,Bulgaria
+848,15,2012,"From 16 to 17 years",Males,Bulgaria
+849,5,2010,"From 16 to 17 years",Males,Switzerland
+850,5,2011,"From 16 to 17 years",Males,Switzerland
+851,15,2012,"From 16 to 17 years",Males,Switzerland
+852,0,2010,"From 16 to 17 years",Males,Cyprus
+853,5,2011,"From 16 to 17 years",Males,Cyprus
+854,0,2012,"From 16 to 17 years",Males,Cyprus
+855,0,2010,"From 16 to 17 years",Males,Czechia
+856,0,2011,"From 16 to 17 years",Males,Czechia
+857,0,2012,"From 16 to 17 years",Males,Czechia
+858,30,2010,"From 16 to 17 years",Males,"Germany (until 1990 former territory of the FRG)"
+859,35,2011,"From 16 to 17 years",Males,"Germany (until 1990 former territory of the FRG)"
+860,60,2012,"From 16 to 17 years",Males,"Germany (until 1990 former territory of the FRG)"
+861,10,2010,"From 16 to 17 years",Males,Denmark
+862,0,2011,"From 16 to 17 years",Males,Denmark
+863,10,2012,"From 16 to 17 years",Males,Denmark
+864,0,2010,"From 16 to 17 years",Males,Estonia
+865,0,2011,"From 16 to 17 years",Males,Estonia
+866,0,2012,"From 16 to 17 years",Males,Estonia
+867,0,2010,"From 16 to 17 years",Males,Greece
+868,0,2011,"From 16 to 17 years",Males,Greece
+869,0,2012,"From 16 to 17 years",Males,Greece
+870,0,2010,"From 16 to 17 years",Males,Spain
+871,0,2011,"From 16 to 17 years",Males,Spain
+872,0,2012,"From 16 to 17 years",Males,Spain
+873,55,2010,"From 16 to 17 years",Males,"European Union - 27 countries (from 2020)"
+874,70,2011,"From 16 to 17 years",Males,"European Union - 27 countries (from 2020)"
+875,190,2012,"From 16 to 17 years",Males,"European Union - 27 countries (from 2020)"
+876,60,2010,"From 16 to 17 years",Males,"European Union - 28 countries (2013-2020)"
+877,75,2011,"From 16 to 17 years",Males,"European Union - 28 countries (2013-2020)"
+878,205,2012,"From 16 to 17 years",Males,"European Union - 28 countries (2013-2020)"
+879,0,2010,"From 16 to 17 years",Males,Finland
+880,0,2011,"From 16 to 17 years",Males,Finland
+881,0,2012,"From 16 to 17 years",Males,Finland
+882,0,2010,"From 16 to 17 years",Males,France
+883,0,2011,"From 16 to 17 years",Males,France
+884,0,2012,"From 16 to 17 years",Males,France
+885,0,2010,"From 16 to 17 years",Males,Croatia
+886,0,2011,"From 16 to 17 years",Males,Croatia
+887,5,2012,"From 16 to 17 years",Males,Croatia
+888,0,2010,"From 16 to 17 years",Males,Hungary
+889,0,2011,"From 16 to 17 years",Males,Hungary
+890,5,2012,"From 16 to 17 years",Males,Hungary
+891,0,2010,"From 16 to 17 years",Males,Ireland
+892,0,2011,"From 16 to 17 years",Males,Ireland
+893,0,2012,"From 16 to 17 years",Males,Ireland
+894,0,2010,"From 16 to 17 years",Males,Iceland
+895,0,2011,"From 16 to 17 years",Males,Iceland
+896,0,2012,"From 16 to 17 years",Males,Iceland
+897,0,2010,"From 16 to 17 years",Males,Italy
+898,5,2011,"From 16 to 17 years",Males,Italy
+899,0,2012,"From 16 to 17 years",Males,Italy
+900,0,2010,"From 16 to 17 years",Males,Liechtenstein
+901,0,2011,"From 16 to 17 years",Males,Liechtenstein
+902,0,2012,"From 16 to 17 years",Males,Liechtenstein
+903,0,2010,"From 16 to 17 years",Males,Lithuania
+904,0,2011,"From 16 to 17 years",Males,Lithuania
+905,0,2012,"From 16 to 17 years",Males,Lithuania
+906,0,2010,"From 16 to 17 years",Males,Luxembourg
+907,0,2011,"From 16 to 17 years",Males,Luxembourg
+908,0,2012,"From 16 to 17 years",Males,Luxembourg
+909,0,2010,"From 16 to 17 years",Males,Latvia
+910,0,2011,"From 16 to 17 years",Males,Latvia
+911,0,2012,"From 16 to 17 years",Males,Latvia
+912,0,2010,"From 16 to 17 years",Males,Malta
+913,0,2011,"From 16 to 17 years",Males,Malta
+914,0,2012,"From 16 to 17 years",Males,Malta
+915,0,2010,"From 16 to 17 years",Males,Netherlands
+916,5,2011,"From 16 to 17 years",Males,Netherlands
+917,5,2012,"From 16 to 17 years",Males,Netherlands
+918,0,2010,"From 16 to 17 years",Males,Norway
+919,0,2011,"From 16 to 17 years",Males,Norway
+920,5,2012,"From 16 to 17 years",Males,Norway
+921,0,2010,"From 16 to 17 years",Males,Poland
+922,0,2011,"From 16 to 17 years",Males,Poland
+923,5,2012,"From 16 to 17 years",Males,Poland
+924,0,2010,"From 16 to 17 years",Males,Portugal
+925,0,2011,"From 16 to 17 years",Males,Portugal
+926,0,2012,"From 16 to 17 years",Males,Portugal
+927,0,2010,"From 16 to 17 years",Males,Romania
+928,0,2011,"From 16 to 17 years",Males,Romania
+929,5,2012,"From 16 to 17 years",Males,Romania
+930,0,2010,"From 16 to 17 years",Males,Sweden
+931,10,2011,"From 16 to 17 years",Males,Sweden
+932,55,2012,"From 16 to 17 years",Males,Sweden
+933,0,2010,"From 16 to 17 years",Males,Slovenia
+934,0,2011,"From 16 to 17 years",Males,Slovenia
+935,5,2012,"From 16 to 17 years",Males,Slovenia
+936,0,2010,"From 16 to 17 years",Males,Slovakia
+937,0,2011,"From 16 to 17 years",Males,Slovakia
+938,0,2012,"From 16 to 17 years",Males,Slovakia
+939,60,2010,"From 16 to 17 years",Males,Total
+940,75,2011,"From 16 to 17 years",Males,Total
+941,205,2012,"From 16 to 17 years",Males,Total
+942,0,2010,"From 16 to 17 years",Males,"United Kingdom"
+943,5,2011,"From 16 to 17 years",Males,"United Kingdom"
+944,15,2012,"From 16 to 17 years",Males,"United Kingdom"
+945,0,2010,"Less than 14 years",Males,Austria
+946,0,2011,"Less than 14 years",Males,Austria
+947,0,2012,"Less than 14 years",Males,Austria
+948,0,2010,"Less than 14 years",Males,Belgium
+949,0,2011,"Less than 14 years",Males,Belgium
+950,0,2012,"Less than 14 years",Males,Belgium
+951,0,2010,"Less than 14 years",Males,Bulgaria
+952,0,2011,"Less than 14 years",Males,Bulgaria
+953,0,2012,"Less than 14 years",Males,Bulgaria
+954,5,2010,"Less than 14 years",Males,Switzerland
+955,0,2011,"Less than 14 years",Males,Switzerland
+956,0,2012,"Less than 14 years",Males,Switzerland
+957,0,2010,"Less than 14 years",Males,Cyprus
+958,0,2011,"Less than 14 years",Males,Cyprus
+959,0,2012,"Less than 14 years",Males,Cyprus
+960,0,2010,"Less than 14 years",Males,Czechia
+961,0,2011,"Less than 14 years",Males,Czechia
+962,0,2012,"Less than 14 years",Males,Czechia
+963,0,2010,"Less than 14 years",Males,"Germany (until 1990 former territory of the FRG)"
+964,5,2011,"Less than 14 years",Males,"Germany (until 1990 former territory of the FRG)"
+965,15,2012,"Less than 14 years",Males,"Germany (until 1990 former territory of the FRG)"
+966,0,2010,"Less than 14 years",Males,Denmark
+967,0,2011,"Less than 14 years",Males,Denmark
+968,0,2012,"Less than 14 years",Males,Denmark
+969,0,2010,"Less than 14 years",Males,Estonia
+970,0,2011,"Less than 14 years",Males,Estonia
+971,0,2012,"Less than 14 years",Males,Estonia
+972,0,2010,"Less than 14 years",Males,Greece
+973,0,2011,"Less than 14 years",Males,Greece
+974,0,2012,"Less than 14 years",Males,Greece
+975,0,2010,"Less than 14 years",Males,Spain
+976,0,2011,"Less than 14 years",Males,Spain
+977,0,2012,"Less than 14 years",Males,Spain
+978,5,2010,"Less than 14 years",Males,"European Union - 27 countries (from 2020)"
+979,5,2011,"Less than 14 years",Males,"European Union - 27 countries (from 2020)"
+980,35,2012,"Less than 14 years",Males,"European Union - 27 countries (from 2020)"
+981,5,2010,"Less than 14 years",Males,"European Union - 28 countries (2013-2020)"
+982,5,2011,"Less than 14 years",Males,"European Union - 28 countries (2013-2020)"
+983,35,2012,"Less than 14 years",Males,"European Union - 28 countries (2013-2020)"
+984,0,2010,"Less than 14 years",Males,Finland
+985,0,2011,"Less than 14 years",Males,Finland
+986,0,2012,"Less than 14 years",Males,Finland
+987,0,2010,"Less than 14 years",Males,France
+988,0,2011,"Less than 14 years",Males,France
+989,0,2012,"Less than 14 years",Males,France
+990,0,2010,"Less than 14 years",Males,Croatia
+991,0,2011,"Less than 14 years",Males,Croatia
+992,0,2012,"Less than 14 years",Males,Croatia
+993,0,2010,"Less than 14 years",Males,Hungary
+994,0,2011,"Less than 14 years",Males,Hungary
+995,5,2012,"Less than 14 years",Males,Hungary
+996,0,2010,"Less than 14 years",Males,Ireland
+997,0,2011,"Less than 14 years",Males,Ireland
+998,0,2012,"Less than 14 years",Males,Ireland
+999,0,2010,"Less than 14 years",Males,Iceland
+1000,0,2011,"Less than 14 years",Males,Iceland
+1001,0,2012,"Less than 14 years",Males,Iceland
+1002,0,2010,"Less than 14 years",Males,Italy
+1003,0,2011,"Less than 14 years",Males,Italy
+1004,0,2012,"Less than 14 years",Males,Italy
+1005,0,2010,"Less than 14 years",Males,Liechtenstein
+1006,0,2011,"Less than 14 years",Males,Liechtenstein
+1007,0,2012,"Less than 14 years",Males,Liechtenstein
+1008,0,2010,"Less than 14 years",Males,Lithuania
+1009,0,2011,"Less than 14 years",Males,Lithuania
+1010,0,2012,"Less than 14 years",Males,Lithuania
+1011,0,2010,"Less than 14 years",Males,Luxembourg
+1012,0,2011,"Less than 14 years",Males,Luxembourg
+1013,0,2012,"Less than 14 years",Males,Luxembourg
+1014,0,2010,"Less than 14 years",Males,Latvia
+1015,0,2011,"Less than 14 years",Males,Latvia
+1016,0,2012,"Less than 14 years",Males,Latvia
+1017,0,2010,"Less than 14 years",Males,Malta
+1018,0,2011,"Less than 14 years",Males,Malta
+1019,0,2012,"Less than 14 years",Males,Malta
+1020,0,2010,"Less than 14 years",Males,Netherlands
+1021,0,2011,"Less than 14 years",Males,Netherlands
+1022,0,2012,"Less than 14 years",Males,Netherlands
+1023,0,2010,"Less than 14 years",Males,Norway
+1024,0,2011,"Less than 14 years",Males,Norway
+1025,0,2012,"Less than 14 years",Males,Norway
+1026,0,2010,"Less than 14 years",Males,Poland
+1027,0,2011,"Less than 14 years",Males,Poland
+1028,0,2012,"Less than 14 years",Males,Poland
+1029,0,2010,"Less than 14 years",Males,Portugal
+1030,0,2011,"Less than 14 years",Males,Portugal
+1031,0,2012,"Less than 14 years",Males,Portugal
+1032,0,2010,"Less than 14 years",Males,Romania
+1033,0,2011,"Less than 14 years",Males,Romania
+1034,0,2012,"Less than 14 years",Males,Romania
+1035,0,2010,"Less than 14 years",Males,Sweden
+1036,0,2011,"Less than 14 years",Males,Sweden
+1037,15,2012,"Less than 14 years",Males,Sweden
+1038,0,2010,"Less than 14 years",Males,Slovenia
+1039,0,2011,"Less than 14 years",Males,Slovenia
+1040,0,2012,"Less than 14 years",Males,Slovenia
+1041,0,2010,"Less than 14 years",Males,Slovakia
+1042,0,2011,"Less than 14 years",Males,Slovakia
+1043,0,2012,"Less than 14 years",Males,Slovakia
+1044,5,2010,"Less than 14 years",Males,Total
+1045,5,2011,"Less than 14 years",Males,Total
+1046,35,2012,"Less than 14 years",Males,Total
+1047,0,2010,"Less than 14 years",Males,"United Kingdom"
+1048,0,2011,"Less than 14 years",Males,"United Kingdom"
+1049,0,2012,"Less than 14 years",Males,"United Kingdom"
+1050,10,2010,Total,Total,Austria
+1051,10,2011,Total,Total,Austria
+1052,25,2012,Total,Total,Austria
+1053,5,2010,Total,Total,Belgium
+1054,5,2011,Total,Total,Belgium
+1055,10,2012,Total,Total,Belgium
+1056,0,2010,Total,Total,Bulgaria
+1057,5,2011,Total,Total,Bulgaria
+1058,15,2012,Total,Total,Bulgaria
+1059,10,2010,Total,Total,Switzerland
+1060,10,2011,Total,Total,Switzerland
+1061,25,2012,Total,Total,Switzerland
+1062,0,2010,Total,Total,Cyprus
+1063,5,2011,Total,Total,Cyprus
+1064,0,2012,Total,Total,Cyprus
+1065,0,2010,Total,Total,Czechia
+1066,0,2011,Total,Total,Czechia
+1067,0,2012,Total,Total,Czechia
+1068,55,2010,Total,Total,"Germany (until 1990 former territory of the FRG)"
+1069,85,2011,Total,Total,"Germany (until 1990 former territory of the FRG)"
+1070,135,2012,Total,Total,"Germany (until 1990 former territory of the FRG)"
+1071,15,2010,Total,Total,Denmark
+1072,5,2011,Total,Total,Denmark
+1073,15,2012,Total,Total,Denmark
+1074,0,2010,Total,Total,Estonia
+1075,0,2011,Total,Total,Estonia
+1076,0,2012,Total,Total,Estonia
+1077,0,2010,Total,Total,Greece
+1078,0,2011,Total,Total,Greece
+1079,0,2012,Total,Total,Greece
+1080,0,2010,Total,Total,Spain
+1081,0,2011,Total,Total,Spain
+1082,0,2012,Total,Total,Spain
+1083,105,2010,Total,Total,"European Union - 27 countries (from 2020)"
+1084,150,2011,Total,Total,"European Union - 27 countries (from 2020)"
+1085,375,2012,Total,Total,"European Union - 27 countries (from 2020)"
+1086,110,2010,Total,Total,"European Union - 28 countries (2013-2020)"
+1087,155,2011,Total,Total,"European Union - 28 countries (2013-2020)"
+1088,395,2012,Total,Total,"European Union - 28 countries (2013-2020)"
+1089,0,2010,Total,Total,Finland
+1090,5,2011,Total,Total,Finland
+1091,0,2012,Total,Total,Finland
+1092,0,2010,Total,Total,France
+1093,0,2011,Total,Total,France
+1094,5,2012,Total,Total,France
+1095,0,2010,Total,Total,Croatia
+1096,0,2011,Total,Total,Croatia
+1097,5,2012,Total,Total,Croatia
+1098,0,2010,Total,Total,Hungary
+1099,0,2011,Total,Total,Hungary
+1100,10,2012,Total,Total,Hungary
+1101,0,2010,Total,Total,Ireland
+1102,0,2011,Total,Total,Ireland
+1103,0,2012,Total,Total,Ireland
+1104,0,2010,Total,Total,Iceland
+1105,0,2011,Total,Total,Iceland
+1106,0,2012,Total,Total,Iceland
+1107,0,2010,Total,Total,Italy
+1108,5,2011,Total,Total,Italy
+1109,0,2012,Total,Total,Italy
+1110,0,2010,Total,Total,Liechtenstein
+1111,0,2011,Total,Total,Liechtenstein
+1112,0,2012,Total,Total,Liechtenstein
+1113,0,2010,Total,Total,Lithuania
+1114,0,2011,Total,Total,Lithuania
+1115,0,2012,Total,Total,Lithuania
+1116,0,2010,Total,Total,Luxembourg
+1117,0,2011,Total,Total,Luxembourg
+1118,0,2012,Total,Total,Luxembourg
+1119,0,2010,Total,Total,Latvia
+1120,0,2011,Total,Total,Latvia
+1121,0,2012,Total,Total,Latvia
+1122,0,2010,Total,Total,Malta
+1123,0,2011,Total,Total,Malta
+1124,0,2012,Total,Total,Malta
+1125,5,2010,Total,Total,Netherlands
+1126,5,2011,Total,Total,Netherlands
+1127,10,2012,Total,Total,Netherlands
+1128,5,2010,Total,Total,Norway
+1129,0,2011,Total,Total,Norway
+1130,5,2012,Total,Total,Norway
+1131,0,2010,Total,Total,Poland
+1132,0,2011,Total,Total,Poland
+1133,5,2012,Total,Total,Poland
+1134,0,2010,Total,Total,Portugal
+1135,0,2011,Total,Total,Portugal
+1136,0,2012,Total,Total,Portugal
+1137,0,2010,Total,Total,Romania
+1138,0,2011,Total,Total,Romania
+1139,10,2012,Total,Total,Romania
+1140,10,2010,Total,Total,Sweden
+1141,20,2011,Total,Total,Sweden
+1142,120,2012,Total,Total,Sweden
+1143,0,2010,Total,Total,Slovenia
+1144,0,2011,Total,Total,Slovenia
+1145,5,2012,Total,Total,Slovenia
+1146,0,2010,Total,Total,Slovakia
+1147,0,2011,Total,Total,Slovakia
+1148,0,2012,Total,Total,Slovakia
+1149,110,2010,Total,Total,Total
+1150,155,2011,Total,Total,Total
+1151,395,2012,Total,Total,Total
+1152,5,2010,Total,Total,"United Kingdom"
+1153,10,2011,Total,Total,"United Kingdom"
+1154,20,2012,Total,Total,"United Kingdom"
+1155,0,2010,Unknown,Total,Austria
+1156,0,2011,Unknown,Total,Austria
+1157,0,2012,Unknown,Total,Austria
+1158,0,2010,Unknown,Total,Belgium
+1159,0,2011,Unknown,Total,Belgium
+1160,0,2012,Unknown,Total,Belgium
+1161,0,2010,Unknown,Total,Bulgaria
+1162,0,2011,Unknown,Total,Bulgaria
+1163,0,2012,Unknown,Total,Bulgaria
+1164,0,2010,Unknown,Total,Switzerland
+1165,0,2011,Unknown,Total,Switzerland
+1166,0,2012,Unknown,Total,Switzerland
+1167,0,2010,Unknown,Total,Cyprus
+1168,0,2011,Unknown,Total,Cyprus
+1169,0,2012,Unknown,Total,Cyprus
+1170,0,2010,Unknown,Total,Czechia
+1171,0,2011,Unknown,Total,Czechia
+1172,0,2012,Unknown,Total,Czechia
+1173,0,2010,Unknown,Total,"Germany (until 1990 former territory of the FRG)"
+1174,0,2011,Unknown,Total,"Germany (until 1990 former territory of the FRG)"
+1175,0,2012,Unknown,Total,"Germany (until 1990 former territory of the FRG)"
+1176,0,2010,Unknown,Total,Denmark
+1177,0,2011,Unknown,Total,Denmark
+1178,0,2012,Unknown,Total,Denmark
+1179,0,2010,Unknown,Total,Estonia
+1180,0,2011,Unknown,Total,Estonia
+1181,0,2012,Unknown,Total,Estonia
+1182,0,2010,Unknown,Total,Greece
+1183,0,2011,Unknown,Total,Greece
+1184,0,2012,Unknown,Total,Greece
+1185,0,2010,Unknown,Total,Spain
+1186,0,2011,Unknown,Total,Spain
+1187,0,2012,Unknown,Total,Spain
+1188,0,2010,Unknown,Total,"European Union - 27 countries (from 2020)"
+1189,0,2011,Unknown,Total,"European Union - 27 countries (from 2020)"
+1190,0,2012,Unknown,Total,"European Union - 27 countries (from 2020)"
+1191,0,2010,Unknown,Total,"European Union - 28 countries (2013-2020)"
+1192,5,2011,Unknown,Total,"European Union - 28 countries (2013-2020)"
+1193,5,2012,Unknown,Total,"European Union - 28 countries (2013-2020)"
+1194,0,2010,Unknown,Total,Finland
+1195,0,2011,Unknown,Total,Finland
+1196,0,2012,Unknown,Total,Finland
+1197,0,2010,Unknown,Total,France
+1198,0,2011,Unknown,Total,France
+1199,0,2012,Unknown,Total,France
+1200,0,2010,Unknown,Total,Croatia
+1201,0,2011,Unknown,Total,Croatia
+1202,0,2012,Unknown,Total,Croatia
+1203,0,2010,Unknown,Total,Hungary
+1204,0,2011,Unknown,Total,Hungary
+1205,0,2012,Unknown,Total,Hungary
+1206,0,2010,Unknown,Total,Ireland
+1207,0,2011,Unknown,Total,Ireland
+1208,0,2012,Unknown,Total,Ireland
+1209,0,2010,Unknown,Total,Iceland
+1210,0,2011,Unknown,Total,Iceland
+1211,0,2012,Unknown,Total,Iceland
+1212,0,2010,Unknown,Total,Italy
+1213,0,2011,Unknown,Total,Italy
+1214,0,2012,Unknown,Total,Italy
+1215,0,2010,Unknown,Total,Liechtenstein
+1216,0,2011,Unknown,Total,Liechtenstein
+1217,0,2012,Unknown,Total,Liechtenstein
+1218,0,2010,Unknown,Total,Lithuania
+1219,0,2011,Unknown,Total,Lithuania
+1220,0,2012,Unknown,Total,Lithuania
+1221,0,2010,Unknown,Total,Luxembourg
+1222,0,2011,Unknown,Total,Luxembourg
+1223,0,2012,Unknown,Total,Luxembourg
+1224,0,2010,Unknown,Total,Latvia
+1225,0,2011,Unknown,Total,Latvia
+1226,0,2012,Unknown,Total,Latvia
+1227,0,2010,Unknown,Total,Malta
+1228,0,2011,Unknown,Total,Malta
+1229,0,2012,Unknown,Total,Malta
+1230,0,2010,Unknown,Total,Netherlands
+1231,0,2011,Unknown,Total,Netherlands
+1232,0,2012,Unknown,Total,Netherlands
+1233,0,2010,Unknown,Total,Norway
+1234,0,2011,Unknown,Total,Norway
+1235,0,2012,Unknown,Total,Norway
+1236,0,2010,Unknown,Total,Poland
+1237,0,2011,Unknown,Total,Poland
+1238,0,2012,Unknown,Total,Poland
+1239,0,2010,Unknown,Total,Portugal
+1240,0,2011,Unknown,Total,Portugal
+1241,0,2012,Unknown,Total,Portugal
+1242,0,2010,Unknown,Total,Romania
+1243,0,2011,Unknown,Total,Romania
+1244,0,2012,Unknown,Total,Romania
+1245,0,2010,Unknown,Total,Sweden
+1246,0,2011,Unknown,Total,Sweden
+1247,0,2012,Unknown,Total,Sweden
+1248,0,2010,Unknown,Total,Slovenia
+1249,0,2011,Unknown,Total,Slovenia
+1250,0,2012,Unknown,Total,Slovenia
+1251,0,2010,Unknown,Total,Slovakia
+1252,0,2011,Unknown,Total,Slovakia
+1253,0,2012,Unknown,Total,Slovakia
+1254,0,2010,Unknown,Total,Total
+1255,5,2011,Unknown,Total,Total
+1256,5,2012,Unknown,Total,Total
+1257,0,2010,Unknown,Total,"United Kingdom"
+1258,0,2011,Unknown,Total,"United Kingdom"
+1259,5,2012,Unknown,Total,"United Kingdom"
+1260,5,2010,"From 14 to 15 years",Total,Austria
+1261,5,2011,"From 14 to 15 years",Total,Austria
+1262,5,2012,"From 14 to 15 years",Total,Austria
+1263,0,2010,"From 14 to 15 years",Total,Belgium
+1264,0,2011,"From 14 to 15 years",Total,Belgium
+1265,0,2012,"From 14 to 15 years",Total,Belgium
+1266,0,2010,"From 14 to 15 years",Total,Bulgaria
+1267,0,2011,"From 14 to 15 years",Total,Bulgaria
+1268,5,2012,"From 14 to 15 years",Total,Bulgaria
+1269,0,2010,"From 14 to 15 years",Total,Switzerland
+1270,5,2011,"From 14 to 15 years",Total,Switzerland
+1271,5,2012,"From 14 to 15 years",Total,Switzerland
+1272,0,2010,"From 14 to 15 years",Total,Cyprus
+1273,0,2011,"From 14 to 15 years",Total,Cyprus
+1274,0,2012,"From 14 to 15 years",Total,Cyprus
+1275,0,2010,"From 14 to 15 years",Total,Czechia
+1276,0,2011,"From 14 to 15 years",Total,Czechia
+1277,0,2012,"From 14 to 15 years",Total,Czechia
+1278,15,2010,"From 14 to 15 years",Total,"Germany (until 1990 former territory of the FRG)"
+1279,20,2011,"From 14 to 15 years",Total,"Germany (until 1990 former territory of the FRG)"
+1280,30,2012,"From 14 to 15 years",Total,"Germany (until 1990 former territory of the FRG)"
+1281,5,2010,"From 14 to 15 years",Total,Denmark
+1282,0,2011,"From 14 to 15 years",Total,Denmark
+1283,5,2012,"From 14 to 15 years",Total,Denmark
+1284,0,2010,"From 14 to 15 years",Total,Estonia
+1285,0,2011,"From 14 to 15 years",Total,Estonia
+1286,0,2012,"From 14 to 15 years",Total,Estonia
+1287,0,2010,"From 14 to 15 years",Total,Greece
+1288,0,2011,"From 14 to 15 years",Total,Greece
+1289,0,2012,"From 14 to 15 years",Total,Greece
+1290,0,2010,"From 14 to 15 years",Total,Spain
+1291,0,2011,"From 14 to 15 years",Total,Spain
+1292,0,2012,"From 14 to 15 years",Total,Spain
+1293,25,2010,"From 14 to 15 years",Total,"European Union - 27 countries (from 2020)"
+1294,40,2011,"From 14 to 15 years",Total,"European Union - 27 countries (from 2020)"
+1295,75,2012,"From 14 to 15 years",Total,"European Union - 27 countries (from 2020)"
+1296,25,2010,"From 14 to 15 years",Total,"European Union - 28 countries (2013-2020)"
+1297,40,2011,"From 14 to 15 years",Total,"European Union - 28 countries (2013-2020)"
+1298,75,2012,"From 14 to 15 years",Total,"European Union - 28 countries (2013-2020)"
+1299,0,2010,"From 14 to 15 years",Total,Finland
+1300,0,2011,"From 14 to 15 years",Total,Finland
+1301,0,2012,"From 14 to 15 years",Total,Finland
+1302,0,2010,"From 14 to 15 years",Total,France
+1303,0,2011,"From 14 to 15 years",Total,France
+1304,0,2012,"From 14 to 15 years",Total,France
+1305,0,2010,"From 14 to 15 years",Total,Croatia
+1306,0,2011,"From 14 to 15 years",Total,Croatia
+1307,0,2012,"From 14 to 15 years",Total,Croatia
+1308,0,2010,"From 14 to 15 years",Total,Hungary
+1309,0,2011,"From 14 to 15 years",Total,Hungary
+1310,5,2012,"From 14 to 15 years",Total,Hungary
+1311,0,2010,"From 14 to 15 years",Total,Ireland
+1312,0,2011,"From 14 to 15 years",Total,Ireland
+1313,0,2012,"From 14 to 15 years",Total,Ireland
+1314,0,2010,"From 14 to 15 years",Total,Iceland
+1315,0,2011,"From 14 to 15 years",Total,Iceland
+1316,0,2012,"From 14 to 15 years",Total,Iceland
+1317,0,2010,"From 14 to 15 years",Total,Italy
+1318,0,2011,"From 14 to 15 years",Total,Italy
+1319,0,2012,"From 14 to 15 years",Total,Italy
+1320,0,2010,"From 14 to 15 years",Total,Liechtenstein
+1321,0,2011,"From 14 to 15 years",Total,Liechtenstein
+1322,0,2012,"From 14 to 15 years",Total,Liechtenstein
+1323,0,2010,"From 14 to 15 years",Total,Lithuania
+1324,0,2011,"From 14 to 15 years",Total,Lithuania
+1325,0,2012,"From 14 to 15 years",Total,Lithuania
+1326,0,2010,"From 14 to 15 years",Total,Luxembourg
+1327,0,2011,"From 14 to 15 years",Total,Luxembourg
+1328,0,2012,"From 14 to 15 years",Total,Luxembourg
+1329,0,2010,"From 14 to 15 years",Total,Latvia
+1330,0,2011,"From 14 to 15 years",Total,Latvia
+1331,0,2012,"From 14 to 15 years",Total,Latvia
+1332,0,2010,"From 14 to 15 years",Total,Malta
+1333,0,2011,"From 14 to 15 years",Total,Malta
+1334,0,2012,"From 14 to 15 years",Total,Malta
+1335,0,2010,"From 14 to 15 years",Total,Netherlands
+1336,0,2011,"From 14 to 15 years",Total,Netherlands
+1337,0,2012,"From 14 to 15 years",Total,Netherlands
+1338,0,2010,"From 14 to 15 years",Total,Norway
+1339,0,2011,"From 14 to 15 years",Total,Norway
+1340,0,2012,"From 14 to 15 years",Total,Norway
+1341,0,2010,"From 14 to 15 years",Total,Poland
+1342,0,2011,"From 14 to 15 years",Total,Poland
+1343,0,2012,"From 14 to 15 years",Total,Poland
+1344,0,2010,"From 14 to 15 years",Total,Portugal
+1345,0,2011,"From 14 to 15 years",Total,Portugal
+1346,0,2012,"From 14 to 15 years",Total,Portugal
+1347,0,2010,"From 14 to 15 years",Total,Romania
+1348,0,2011,"From 14 to 15 years",Total,Romania
+1349,0,2012,"From 14 to 15 years",Total,Romania
+1350,5,2010,"From 14 to 15 years",Total,Sweden
+1351,5,2011,"From 14 to 15 years",Total,Sweden
+1352,20,2012,"From 14 to 15 years",Total,Sweden
+1353,0,2010,"From 14 to 15 years",Total,Slovenia
+1354,0,2011,"From 14 to 15 years",Total,Slovenia
+1355,0,2012,"From 14 to 15 years",Total,Slovenia
+1356,0,2010,"From 14 to 15 years",Total,Slovakia
+1357,0,2011,"From 14 to 15 years",Total,Slovakia
+1358,0,2012,"From 14 to 15 years",Total,Slovakia
+1359,25,2010,"From 14 to 15 years",Total,Total
+1360,40,2011,"From 14 to 15 years",Total,Total
+1361,75,2012,"From 14 to 15 years",Total,Total
+1362,0,2010,"From 14 to 15 years",Total,"United Kingdom"
+1363,0,2011,"From 14 to 15 years",Total,"United Kingdom"
+1364,0,2012,"From 14 to 15 years",Total,"United Kingdom"
+1365,5,2010,"From 16 to 17 years",Total,Austria
+1366,10,2011,"From 16 to 17 years",Total,Austria
+1367,20,2012,"From 16 to 17 years",Total,Austria
+1368,5,2010,"From 16 to 17 years",Total,Belgium
+1369,0,2011,"From 16 to 17 years",Total,Belgium
+1370,5,2012,"From 16 to 17 years",Total,Belgium
+1371,0,2010,"From 16 to 17 years",Total,Bulgaria
+1372,0,2011,"From 16 to 17 years",Total,Bulgaria
+1373,15,2012,"From 16 to 17 years",Total,Bulgaria
+1374,5,2010,"From 16 to 17 years",Total,Switzerland
+1375,5,2011,"From 16 to 17 years",Total,Switzerland
+1376,20,2012,"From 16 to 17 years",Total,Switzerland
+1377,0,2010,"From 16 to 17 years",Total,Cyprus
+1378,5,2011,"From 16 to 17 years",Total,Cyprus
+1379,0,2012,"From 16 to 17 years",Total,Cyprus
+1380,0,2010,"From 16 to 17 years",Total,Czechia
+1381,0,2011,"From 16 to 17 years",Total,Czechia
+1382,0,2012,"From 16 to 17 years",Total,Czechia
+1383,40,2010,"From 16 to 17 years",Total,"Germany (until 1990 former territory of the FRG)"
+1384,55,2011,"From 16 to 17 years",Total,"Germany (until 1990 former territory of the FRG)"
+1385,80,2012,"From 16 to 17 years",Total,"Germany (until 1990 former territory of the FRG)"
+1386,10,2010,"From 16 to 17 years",Total,Denmark
+1387,0,2011,"From 16 to 17 years",Total,Denmark
+1388,10,2012,"From 16 to 17 years",Total,Denmark
+1389,0,2010,"From 16 to 17 years",Total,Estonia
+1390,0,2011,"From 16 to 17 years",Total,Estonia
+1391,0,2012,"From 16 to 17 years",Total,Estonia
+1392,0,2010,"From 16 to 17 years",Total,Greece
+1393,0,2011,"From 16 to 17 years",Total,Greece
+1394,0,2012,"From 16 to 17 years",Total,Greece
+1395,0,2010,"From 16 to 17 years",Total,Spain
+1396,0,2011,"From 16 to 17 years",Total,Spain
+1397,0,2012,"From 16 to 17 years",Total,Spain
+1398,70,2010,"From 16 to 17 years",Total,"European Union - 27 countries (from 2020)"
+1399,100,2011,"From 16 to 17 years",Total,"European Union - 27 countries (from 2020)"
+1400,235,2012,"From 16 to 17 years",Total,"European Union - 27 countries (from 2020)"
+1401,75,2010,"From 16 to 17 years",Total,"European Union - 28 countries (2013-2020)"
+1402,105,2011,"From 16 to 17 years",Total,"European Union - 28 countries (2013-2020)"
+1403,250,2012,"From 16 to 17 years",Total,"European Union - 28 countries (2013-2020)"
+1404,0,2010,"From 16 to 17 years",Total,Finland
+1405,0,2011,"From 16 to 17 years",Total,Finland
+1406,0,2012,"From 16 to 17 years",Total,Finland
+1407,0,2010,"From 16 to 17 years",Total,France
+1408,0,2011,"From 16 to 17 years",Total,France
+1409,0,2012,"From 16 to 17 years",Total,France
+1410,0,2010,"From 16 to 17 years",Total,Croatia
+1411,0,2011,"From 16 to 17 years",Total,Croatia
+1412,5,2012,"From 16 to 17 years",Total,Croatia
+1413,0,2010,"From 16 to 17 years",Total,Hungary
+1414,0,2011,"From 16 to 17 years",Total,Hungary
+1415,5,2012,"From 16 to 17 years",Total,Hungary
+1416,0,2010,"From 16 to 17 years",Total,Ireland
+1417,0,2011,"From 16 to 17 years",Total,Ireland
+1418,0,2012,"From 16 to 17 years",Total,Ireland
+1419,0,2010,"From 16 to 17 years",Total,Iceland
+1420,0,2011,"From 16 to 17 years",Total,Iceland
+1421,0,2012,"From 16 to 17 years",Total,Iceland
+1422,0,2010,"From 16 to 17 years",Total,Italy
+1423,5,2011,"From 16 to 17 years",Total,Italy
+1424,0,2012,"From 16 to 17 years",Total,Italy
+1425,0,2010,"From 16 to 17 years",Total,Liechtenstein
+1426,0,2011,"From 16 to 17 years",Total,Liechtenstein
+1427,0,2012,"From 16 to 17 years",Total,Liechtenstein
+1428,0,2010,"From 16 to 17 years",Total,Lithuania
+1429,0,2011,"From 16 to 17 years",Total,Lithuania
+1430,0,2012,"From 16 to 17 years",Total,Lithuania
+1431,0,2010,"From 16 to 17 years",Total,Luxembourg
+1432,0,2011,"From 16 to 17 years",Total,Luxembourg
+1433,0,2012,"From 16 to 17 years",Total,Luxembourg
+1434,0,2010,"From 16 to 17 years",Total,Latvia
+1435,0,2011,"From 16 to 17 years",Total,Latvia
+1436,0,2012,"From 16 to 17 years",Total,Latvia
+1437,0,2010,"From 16 to 17 years",Total,Malta
+1438,0,2011,"From 16 to 17 years",Total,Malta
+1439,0,2012,"From 16 to 17 years",Total,Malta
+1440,0,2010,"From 16 to 17 years",Total,Netherlands
+1441,5,2011,"From 16 to 17 years",Total,Netherlands
+1442,5,2012,"From 16 to 17 years",Total,Netherlands
+1443,0,2010,"From 16 to 17 years",Total,Norway
+1444,0,2011,"From 16 to 17 years",Total,Norway
+1445,5,2012,"From 16 to 17 years",Total,Norway
+1446,0,2010,"From 16 to 17 years",Total,Poland
+1447,0,2011,"From 16 to 17 years",Total,Poland
+1448,5,2012,"From 16 to 17 years",Total,Poland
+1449,0,2010,"From 16 to 17 years",Total,Portugal
+1450,0,2011,"From 16 to 17 years",Total,Portugal
+1451,0,2012,"From 16 to 17 years",Total,Portugal
+1452,0,2010,"From 16 to 17 years",Total,Romania
+1453,0,2011,"From 16 to 17 years",Total,Romania
+1454,5,2012,"From 16 to 17 years",Total,Romania
+1455,5,2010,"From 16 to 17 years",Total,Sweden
+1456,15,2011,"From 16 to 17 years",Total,Sweden
+1457,75,2012,"From 16 to 17 years",Total,Sweden
+1458,0,2010,"From 16 to 17 years",Total,Slovenia
+1459,0,2011,"From 16 to 17 years",Total,Slovenia
+1460,5,2012,"From 16 to 17 years",Total,Slovenia
+1461,0,2010,"From 16 to 17 years",Total,Slovakia
+1462,0,2011,"From 16 to 17 years",Total,Slovakia
+1463,0,2012,"From 16 to 17 years",Total,Slovakia
+1464,75,2010,"From 16 to 17 years",Total,Total
+1465,105,2011,"From 16 to 17 years",Total,Total
+1466,250,2012,"From 16 to 17 years",Total,Total
+1467,5,2010,"From 16 to 17 years",Total,"United Kingdom"
+1468,5,2011,"From 16 to 17 years",Total,"United Kingdom"
+1469,15,2012,"From 16 to 17 years",Total,"United Kingdom"
+1470,0,2010,"Less than 14 years",Total,Austria
+1471,0,2011,"Less than 14 years",Total,Austria
+1472,0,2012,"Less than 14 years",Total,Austria
+1473,0,2010,"Less than 14 years",Total,Belgium
+1474,0,2011,"Less than 14 years",Total,Belgium
+1475,0,2012,"Less than 14 years",Total,Belgium
+1476,0,2010,"Less than 14 years",Total,Bulgaria
+1477,0,2011,"Less than 14 years",Total,Bulgaria
+1478,0,2012,"Less than 14 years",Total,Bulgaria
+1479,5,2010,"Less than 14 years",Total,Switzerland
+1480,0,2011,"Less than 14 years",Total,Switzerland
+1481,0,2012,"Less than 14 years",Total,Switzerland
+1482,0,2010,"Less than 14 years",Total,Cyprus
+1483,0,2011,"Less than 14 years",Total,Cyprus
+1484,0,2012,"Less than 14 years",Total,Cyprus
+1485,0,2010,"Less than 14 years",Total,Czechia
+1486,0,2011,"Less than 14 years",Total,Czechia
+1487,0,2012,"Less than 14 years",Total,Czechia
+1488,5,2010,"Less than 14 years",Total,"Germany (until 1990 former territory of the FRG)"
+1489,5,2011,"Less than 14 years",Total,"Germany (until 1990 former territory of the FRG)"
+1490,25,2012,"Less than 14 years",Total,"Germany (until 1990 former territory of the FRG)"
+1491,0,2010,"Less than 14 years",Total,Denmark
+1492,0,2011,"Less than 14 years",Total,Denmark
+1493,0,2012,"Less than 14 years",Total,Denmark
+1494,0,2010,"Less than 14 years",Total,Estonia
+1495,0,2011,"Less than 14 years",Total,Estonia
+1496,0,2012,"Less than 14 years",Total,Estonia
+1497,0,2010,"Less than 14 years",Total,Greece
+1498,0,2011,"Less than 14 years",Total,Greece
+1499,0,2012,"Less than 14 years",Total,Greece
+1500,0,2010,"Less than 14 years",Total,Spain
+1501,0,2011,"Less than 14 years",Total,Spain
+1502,0,2012,"Less than 14 years",Total,Spain
+1503,10,2010,"Less than 14 years",Total,"European Union - 27 countries (from 2020)"
+1504,10,2011,"Less than 14 years",Total,"European Union - 27 countries (from 2020)"
+1505,60,2012,"Less than 14 years",Total,"European Union - 27 countries (from 2020)"
+1506,10,2010,"Less than 14 years",Total,"European Union - 28 countries (2013-2020)"
+1507,10,2011,"Less than 14 years",Total,"European Union - 28 countries (2013-2020)"
+1508,65,2012,"Less than 14 years",Total,"European Union - 28 countries (2013-2020)"
+1509,0,2010,"Less than 14 years",Total,Finland
+1510,0,2011,"Less than 14 years",Total,Finland
+1511,0,2012,"Less than 14 years",Total,Finland
+1512,0,2010,"Less than 14 years",Total,France
+1513,0,2011,"Less than 14 years",Total,France
+1514,0,2012,"Less than 14 years",Total,France
+1515,0,2010,"Less than 14 years",Total,Croatia
+1516,0,2011,"Less than 14 years",Total,Croatia
+1517,0,2012,"Less than 14 years",Total,Croatia
+1518,0,2010,"Less than 14 years",Total,Hungary
+1519,0,2011,"Less than 14 years",Total,Hungary
+1520,5,2012,"Less than 14 years",Total,Hungary
+1521,0,2010,"Less than 14 years",Total,Ireland
+1522,0,2011,"Less than 14 years",Total,Ireland
+1523,0,2012,"Less than 14 years",Total,Ireland
+1524,0,2010,"Less than 14 years",Total,Iceland
+1525,0,2011,"Less than 14 years",Total,Iceland
+1526,0,2012,"Less than 14 years",Total,Iceland
+1527,0,2010,"Less than 14 years",Total,Italy
+1528,0,2011,"Less than 14 years",Total,Italy
+1529,0,2012,"Less than 14 years",Total,Italy
+1530,0,2010,"Less than 14 years",Total,Liechtenstein
+1531,0,2011,"Less than 14 years",Total,Liechtenstein
+1532,0,2012,"Less than 14 years",Total,Liechtenstein
+1533,0,2010,"Less than 14 years",Total,Lithuania
+1534,0,2011,"Less than 14 years",Total,Lithuania
+1535,0,2012,"Less than 14 years",Total,Lithuania
+1536,0,2010,"Less than 14 years",Total,Luxembourg
+1537,0,2011,"Less than 14 years",Total,Luxembourg
+1538,0,2012,"Less than 14 years",Total,Luxembourg
+1539,0,2010,"Less than 14 years",Total,Latvia
+1540,0,2011,"Less than 14 years",Total,Latvia
+1541,0,2012,"Less than 14 years",Total,Latvia
+1542,0,2010,"Less than 14 years",Total,Malta
+1543,0,2011,"Less than 14 years",Total,Malta
+1544,0,2012,"Less than 14 years",Total,Malta
+1545,0,2010,"Less than 14 years",Total,Netherlands
+1546,0,2011,"Less than 14 years",Total,Netherlands
+1547,0,2012,"Less than 14 years",Total,Netherlands
+1548,0,2010,"Less than 14 years",Total,Norway
+1549,0,2011,"Less than 14 years",Total,Norway
+1550,0,2012,"Less than 14 years",Total,Norway
+1551,0,2010,"Less than 14 years",Total,Poland
+1552,0,2011,"Less than 14 years",Total,Poland
+1553,0,2012,"Less than 14 years",Total,Poland
+1554,0,2010,"Less than 14 years",Total,Portugal
+1555,0,2011,"Less than 14 years",Total,Portugal
+1556,0,2012,"Less than 14 years",Total,Portugal
+1557,0,2010,"Less than 14 years",Total,Romania
+1558,0,2011,"Less than 14 years",Total,Romania
+1559,0,2012,"Less than 14 years",Total,Romania
+1560,0,2010,"Less than 14 years",Total,Sweden
+1561,0,2011,"Less than 14 years",Total,Sweden
+1562,30,2012,"Less than 14 years",Total,Sweden
+1563,0,2010,"Less than 14 years",Total,Slovenia
+1564,0,2011,"Less than 14 years",Total,Slovenia
+1565,0,2012,"Less than 14 years",Total,Slovenia
+1566,0,2010,"Less than 14 years",Total,Slovakia
+1567,0,2011,"Less than 14 years",Total,Slovakia
+1568,0,2012,"Less than 14 years",Total,Slovakia
+1569,10,2010,"Less than 14 years",Total,Total
+1570,10,2011,"Less than 14 years",Total,Total
+1571,65,2012,"Less than 14 years",Total,Total
+1572,0,2010,"Less than 14 years",Total,"United Kingdom"
+1573,0,2011,"Less than 14 years",Total,"United Kingdom"
+1574,5,2012,"Less than 14 years",Total,"United Kingdom"
+1575,0,2010,Total,Unknown,Austria
+1576,0,2011,Total,Unknown,Austria
+1577,0,2012,Total,Unknown,Austria
+1578,0,2010,Total,Unknown,Belgium
+1579,0,2011,Total,Unknown,Belgium
+1580,0,2012,Total,Unknown,Belgium
+1581,0,2010,Total,Unknown,Bulgaria
+1582,0,2011,Total,Unknown,Bulgaria
+1583,0,2012,Total,Unknown,Bulgaria
+1584,0,2010,Total,Unknown,Switzerland
+1585,0,2011,Total,Unknown,Switzerland
+1586,0,2012,Total,Unknown,Switzerland
+1587,0,2010,Total,Unknown,Cyprus
+1588,0,2011,Total,Unknown,Cyprus
+1589,0,2012,Total,Unknown,Cyprus
+1590,0,2010,Total,Unknown,Czechia
+1591,0,2011,Total,Unknown,Czechia
+1592,0,2012,Total,Unknown,Czechia
+1593,0,2010,Total,Unknown,"Germany (until 1990 former territory of the FRG)"
+1594,0,2011,Total,Unknown,"Germany (until 1990 former territory of the FRG)"
+1595,5,2012,Total,Unknown,"Germany (until 1990 former territory of the FRG)"
+1596,0,2010,Total,Unknown,Denmark
+1597,0,2011,Total,Unknown,Denmark
+1598,0,2012,Total,Unknown,Denmark
+1599,0,2010,Total,Unknown,Estonia
+1600,0,2011,Total,Unknown,Estonia
+1601,0,2012,Total,Unknown,Estonia
+1602,0,2010,Total,Unknown,Greece
+1603,0,2011,Total,Unknown,Greece
+1604,0,2012,Total,Unknown,Greece
+1605,0,2010,Total,Unknown,Spain
+1606,0,2011,Total,Unknown,Spain
+1607,0,2012,Total,Unknown,Spain
+1608,0,2010,Total,Unknown,"European Union - 27 countries (from 2020)"
+1609,0,2011,Total,Unknown,"European Union - 27 countries (from 2020)"
+1610,5,2012,Total,Unknown,"European Union - 27 countries (from 2020)"
+1611,0,2010,Total,Unknown,"European Union - 28 countries (2013-2020)"
+1612,0,2011,Total,Unknown,"European Union - 28 countries (2013-2020)"
+1613,5,2012,Total,Unknown,"European Union - 28 countries (2013-2020)"
+1614,0,2010,Total,Unknown,Finland
+1615,0,2011,Total,Unknown,Finland
+1616,0,2012,Total,Unknown,Finland
+1617,0,2010,Total,Unknown,France
+1618,0,2011,Total,Unknown,France
+1619,0,2012,Total,Unknown,France
+1620,0,2010,Total,Unknown,Croatia
+1621,0,2011,Total,Unknown,Croatia
+1622,0,2012,Total,Unknown,Croatia
+1623,0,2010,Total,Unknown,Hungary
+1624,0,2011,Total,Unknown,Hungary
+1625,0,2012,Total,Unknown,Hungary
+1626,0,2010,Total,Unknown,Ireland
+1627,0,2011,Total,Unknown,Ireland
+1628,0,2012,Total,Unknown,Ireland
+1629,0,2010,Total,Unknown,Iceland
+1630,0,2011,Total,Unknown,Iceland
+1631,0,2012,Total,Unknown,Iceland
+1632,0,2010,Total,Unknown,Italy
+1633,0,2011,Total,Unknown,Italy
+1634,0,2012,Total,Unknown,Italy
+1635,0,2010,Total,Unknown,Liechtenstein
+1636,0,2011,Total,Unknown,Liechtenstein
+1637,0,2012,Total,Unknown,Liechtenstein
+1638,0,2010,Total,Unknown,Lithuania
+1639,0,2011,Total,Unknown,Lithuania
+1640,0,2012,Total,Unknown,Lithuania
+1641,0,2010,Total,Unknown,Luxembourg
+1642,0,2011,Total,Unknown,Luxembourg
+1643,0,2012,Total,Unknown,Luxembourg
+1644,0,2010,Total,Unknown,Latvia
+1645,0,2011,Total,Unknown,Latvia
+1646,0,2012,Total,Unknown,Latvia
+1647,0,2010,Total,Unknown,Malta
+1648,0,2011,Total,Unknown,Malta
+1649,0,2012,Total,Unknown,Malta
+1650,0,2010,Total,Unknown,Netherlands
+1651,0,2011,Total,Unknown,Netherlands
+1652,0,2012,Total,Unknown,Netherlands
+1653,0,2010,Total,Unknown,Norway
+1654,0,2011,Total,Unknown,Norway
+1655,0,2012,Total,Unknown,Norway
+1656,0,2010,Total,Unknown,Poland
+1657,0,2011,Total,Unknown,Poland
+1658,0,2012,Total,Unknown,Poland
+1659,0,2010,Total,Unknown,Portugal
+1660,0,2011,Total,Unknown,Portugal
+1661,0,2012,Total,Unknown,Portugal
+1662,0,2010,Total,Unknown,Romania
+1663,0,2011,Total,Unknown,Romania
+1664,0,2012,Total,Unknown,Romania
+1665,0,2010,Total,Unknown,Sweden
+1666,0,2011,Total,Unknown,Sweden
+1667,0,2012,Total,Unknown,Sweden
+1668,0,2010,Total,Unknown,Slovenia
+1669,0,2011,Total,Unknown,Slovenia
+1670,0,2012,Total,Unknown,Slovenia
+1671,0,2010,Total,Unknown,Slovakia
+1672,0,2011,Total,Unknown,Slovakia
+1673,0,2012,Total,Unknown,Slovakia
+1674,0,2010,Total,Unknown,Total
+1675,0,2011,Total,Unknown,Total
+1676,5,2012,Total,Unknown,Total
+1677,0,2010,Total,Unknown,"United Kingdom"
+1678,0,2011,Total,Unknown,"United Kingdom"
+1679,0,2012,Total,Unknown,"United Kingdom"
+1680,0,2010,Unknown,Unknown,Austria
+1681,0,2011,Unknown,Unknown,Austria
+1682,0,2012,Unknown,Unknown,Austria
+1683,0,2010,Unknown,Unknown,Belgium
+1684,0,2011,Unknown,Unknown,Belgium
+1685,0,2012,Unknown,Unknown,Belgium
+1686,0,2010,Unknown,Unknown,Bulgaria
+1687,0,2011,Unknown,Unknown,Bulgaria
+1688,0,2012,Unknown,Unknown,Bulgaria
+1689,0,2010,Unknown,Unknown,Switzerland
+1690,0,2011,Unknown,Unknown,Switzerland
+1691,0,2012,Unknown,Unknown,Switzerland
+1692,0,2010,Unknown,Unknown,Cyprus
+1693,0,2011,Unknown,Unknown,Cyprus
+1694,0,2012,Unknown,Unknown,Cyprus
+1695,0,2010,Unknown,Unknown,Czechia
+1696,0,2011,Unknown,Unknown,Czechia
+1697,0,2012,Unknown,Unknown,Czechia
+1698,0,2010,Unknown,Unknown,"Germany (until 1990 former territory of the FRG)"
+1699,0,2011,Unknown,Unknown,"Germany (until 1990 former territory of the FRG)"
+1700,0,2012,Unknown,Unknown,"Germany (until 1990 former territory of the FRG)"
+1701,0,2010,Unknown,Unknown,Denmark
+1702,0,2011,Unknown,Unknown,Denmark
+1703,0,2012,Unknown,Unknown,Denmark
+1704,0,2010,Unknown,Unknown,Estonia
+1705,0,2011,Unknown,Unknown,Estonia
+1706,0,2012,Unknown,Unknown,Estonia
+1707,0,2010,Unknown,Unknown,Greece
+1708,0,2011,Unknown,Unknown,Greece
+1709,0,2012,Unknown,Unknown,Greece
+1710,0,2010,Unknown,Unknown,Spain
+1711,0,2011,Unknown,Unknown,Spain
+1712,0,2012,Unknown,Unknown,Spain
+1713,0,2010,Unknown,Unknown,"European Union - 27 countries (from 2020)"
+1714,0,2011,Unknown,Unknown,"European Union - 27 countries (from 2020)"
+1715,0,2012,Unknown,Unknown,"European Union - 27 countries (from 2020)"
+1716,0,2010,Unknown,Unknown,"European Union - 28 countries (2013-2020)"
+1717,0,2011,Unknown,Unknown,"European Union - 28 countries (2013-2020)"
+1718,0,2012,Unknown,Unknown,"European Union - 28 countries (2013-2020)"
+1719,0,2010,Unknown,Unknown,Finland
+1720,0,2011,Unknown,Unknown,Finland
+1721,0,2012,Unknown,Unknown,Finland
+1722,0,2010,Unknown,Unknown,France
+1723,0,2011,Unknown,Unknown,France
+1724,0,2012,Unknown,Unknown,France
+1725,0,2010,Unknown,Unknown,Croatia
+1726,0,2011,Unknown,Unknown,Croatia
+1727,0,2012,Unknown,Unknown,Croatia
+1728,0,2010,Unknown,Unknown,Hungary
+1729,0,2011,Unknown,Unknown,Hungary
+1730,0,2012,Unknown,Unknown,Hungary
+1731,0,2010,Unknown,Unknown,Ireland
+1732,0,2011,Unknown,Unknown,Ireland
+1733,0,2012,Unknown,Unknown,Ireland
+1734,0,2010,Unknown,Unknown,Iceland
+1735,0,2011,Unknown,Unknown,Iceland
+1736,0,2012,Unknown,Unknown,Iceland
+1737,0,2010,Unknown,Unknown,Italy
+1738,0,2011,Unknown,Unknown,Italy
+1739,0,2012,Unknown,Unknown,Italy
+1740,0,2010,Unknown,Unknown,Liechtenstein
+1741,0,2011,Unknown,Unknown,Liechtenstein
+1742,0,2012,Unknown,Unknown,Liechtenstein
+1743,0,2010,Unknown,Unknown,Lithuania
+1744,0,2011,Unknown,Unknown,Lithuania
+1745,0,2012,Unknown,Unknown,Lithuania
+1746,0,2010,Unknown,Unknown,Luxembourg
+1747,0,2011,Unknown,Unknown,Luxembourg
+1748,0,2012,Unknown,Unknown,Luxembourg
+1749,0,2010,Unknown,Unknown,Latvia
+1750,0,2011,Unknown,Unknown,Latvia
+1751,0,2012,Unknown,Unknown,Latvia
+1752,0,2010,Unknown,Unknown,Malta
+1753,0,2011,Unknown,Unknown,Malta
+1754,0,2012,Unknown,Unknown,Malta
+1755,0,2010,Unknown,Unknown,Netherlands
+1756,0,2011,Unknown,Unknown,Netherlands
+1757,0,2012,Unknown,Unknown,Netherlands
+1758,0,2010,Unknown,Unknown,Norway
+1759,0,2011,Unknown,Unknown,Norway
+1760,0,2012,Unknown,Unknown,Norway
+1761,0,2010,Unknown,Unknown,Poland
+1762,0,2011,Unknown,Unknown,Poland
+1763,0,2012,Unknown,Unknown,Poland
+1764,0,2010,Unknown,Unknown,Portugal
+1765,0,2011,Unknown,Unknown,Portugal
+1766,0,2012,Unknown,Unknown,Portugal
+1767,0,2010,Unknown,Unknown,Romania
+1768,0,2011,Unknown,Unknown,Romania
+1769,0,2012,Unknown,Unknown,Romania
+1770,0,2010,Unknown,Unknown,Sweden
+1771,0,2011,Unknown,Unknown,Sweden
+1772,0,2012,Unknown,Unknown,Sweden
+1773,0,2010,Unknown,Unknown,Slovenia
+1774,0,2011,Unknown,Unknown,Slovenia
+1775,0,2012,Unknown,Unknown,Slovenia
+1776,0,2010,Unknown,Unknown,Slovakia
+1777,0,2011,Unknown,Unknown,Slovakia
+1778,0,2012,Unknown,Unknown,Slovakia
+1779,0,2010,Unknown,Unknown,Total
+1780,0,2011,Unknown,Unknown,Total
+1781,0,2012,Unknown,Unknown,Total
+1782,0,2010,Unknown,Unknown,"United Kingdom"
+1783,0,2011,Unknown,Unknown,"United Kingdom"
+1784,0,2012,Unknown,Unknown,"United Kingdom"
+1785,0,2010,"From 14 to 15 years",Unknown,Austria
+1786,0,2011,"From 14 to 15 years",Unknown,Austria
+1787,0,2012,"From 14 to 15 years",Unknown,Austria
+1788,0,2010,"From 14 to 15 years",Unknown,Belgium
+1789,0,2011,"From 14 to 15 years",Unknown,Belgium
+1790,0,2012,"From 14 to 15 years",Unknown,Belgium
+1791,0,2010,"From 14 to 15 years",Unknown,Bulgaria
+1792,0,2011,"From 14 to 15 years",Unknown,Bulgaria
+1793,0,2012,"From 14 to 15 years",Unknown,Bulgaria
+1794,0,2010,"From 14 to 15 years",Unknown,Switzerland
+1795,0,2011,"From 14 to 15 years",Unknown,Switzerland
+1796,0,2012,"From 14 to 15 years",Unknown,Switzerland
+1797,0,2010,"From 14 to 15 years",Unknown,Cyprus
+1798,0,2011,"From 14 to 15 years",Unknown,Cyprus
+1799,0,2012,"From 14 to 15 years",Unknown,Cyprus
+1800,0,2010,"From 14 to 15 years",Unknown,Czechia
+1801,0,2011,"From 14 to 15 years",Unknown,Czechia
+1802,0,2012,"From 14 to 15 years",Unknown,Czechia
+1803,0,2010,"From 14 to 15 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+1804,0,2011,"From 14 to 15 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+1805,0,2012,"From 14 to 15 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+1806,0,2010,"From 14 to 15 years",Unknown,Denmark
+1807,0,2011,"From 14 to 15 years",Unknown,Denmark
+1808,0,2012,"From 14 to 15 years",Unknown,Denmark
+1809,0,2010,"From 14 to 15 years",Unknown,Estonia
+1810,0,2011,"From 14 to 15 years",Unknown,Estonia
+1811,0,2012,"From 14 to 15 years",Unknown,Estonia
+1812,0,2010,"From 14 to 15 years",Unknown,Greece
+1813,0,2011,"From 14 to 15 years",Unknown,Greece
+1814,0,2012,"From 14 to 15 years",Unknown,Greece
+1815,0,2010,"From 14 to 15 years",Unknown,Spain
+1816,0,2011,"From 14 to 15 years",Unknown,Spain
+1817,0,2012,"From 14 to 15 years",Unknown,Spain
+1818,0,2010,"From 14 to 15 years",Unknown,"European Union - 27 countries (from 2020)"
+1819,0,2011,"From 14 to 15 years",Unknown,"European Union - 27 countries (from 2020)"
+1820,0,2012,"From 14 to 15 years",Unknown,"European Union - 27 countries (from 2020)"
+1821,0,2010,"From 14 to 15 years",Unknown,"European Union - 28 countries (2013-2020)"
+1822,0,2011,"From 14 to 15 years",Unknown,"European Union - 28 countries (2013-2020)"
+1823,0,2012,"From 14 to 15 years",Unknown,"European Union - 28 countries (2013-2020)"
+1824,0,2010,"From 14 to 15 years",Unknown,Finland
+1825,0,2011,"From 14 to 15 years",Unknown,Finland
+1826,0,2012,"From 14 to 15 years",Unknown,Finland
+1827,0,2010,"From 14 to 15 years",Unknown,France
+1828,0,2011,"From 14 to 15 years",Unknown,France
+1829,0,2012,"From 14 to 15 years",Unknown,France
+1830,0,2010,"From 14 to 15 years",Unknown,Croatia
+1831,0,2011,"From 14 to 15 years",Unknown,Croatia
+1832,0,2012,"From 14 to 15 years",Unknown,Croatia
+1833,0,2010,"From 14 to 15 years",Unknown,Hungary
+1834,0,2011,"From 14 to 15 years",Unknown,Hungary
+1835,0,2012,"From 14 to 15 years",Unknown,Hungary
+1836,0,2010,"From 14 to 15 years",Unknown,Ireland
+1837,0,2011,"From 14 to 15 years",Unknown,Ireland
+1838,0,2012,"From 14 to 15 years",Unknown,Ireland
+1839,0,2010,"From 14 to 15 years",Unknown,Iceland
+1840,0,2011,"From 14 to 15 years",Unknown,Iceland
+1841,0,2012,"From 14 to 15 years",Unknown,Iceland
+1842,0,2010,"From 14 to 15 years",Unknown,Italy
+1843,0,2011,"From 14 to 15 years",Unknown,Italy
+1844,0,2012,"From 14 to 15 years",Unknown,Italy
+1845,0,2010,"From 14 to 15 years",Unknown,Liechtenstein
+1846,0,2011,"From 14 to 15 years",Unknown,Liechtenstein
+1847,0,2012,"From 14 to 15 years",Unknown,Liechtenstein
+1848,0,2010,"From 14 to 15 years",Unknown,Lithuania
+1849,0,2011,"From 14 to 15 years",Unknown,Lithuania
+1850,0,2012,"From 14 to 15 years",Unknown,Lithuania
+1851,0,2010,"From 14 to 15 years",Unknown,Luxembourg
+1852,0,2011,"From 14 to 15 years",Unknown,Luxembourg
+1853,0,2012,"From 14 to 15 years",Unknown,Luxembourg
+1854,0,2010,"From 14 to 15 years",Unknown,Latvia
+1855,0,2011,"From 14 to 15 years",Unknown,Latvia
+1856,0,2012,"From 14 to 15 years",Unknown,Latvia
+1857,0,2010,"From 14 to 15 years",Unknown,Malta
+1858,0,2011,"From 14 to 15 years",Unknown,Malta
+1859,0,2012,"From 14 to 15 years",Unknown,Malta
+1860,0,2010,"From 14 to 15 years",Unknown,Netherlands
+1861,0,2011,"From 14 to 15 years",Unknown,Netherlands
+1862,0,2012,"From 14 to 15 years",Unknown,Netherlands
+1863,0,2010,"From 14 to 15 years",Unknown,Norway
+1864,0,2011,"From 14 to 15 years",Unknown,Norway
+1865,0,2012,"From 14 to 15 years",Unknown,Norway
+1866,0,2010,"From 14 to 15 years",Unknown,Poland
+1867,0,2011,"From 14 to 15 years",Unknown,Poland
+1868,0,2012,"From 14 to 15 years",Unknown,Poland
+1869,0,2010,"From 14 to 15 years",Unknown,Portugal
+1870,0,2011,"From 14 to 15 years",Unknown,Portugal
+1871,0,2012,"From 14 to 15 years",Unknown,Portugal
+1872,0,2010,"From 14 to 15 years",Unknown,Romania
+1873,0,2011,"From 14 to 15 years",Unknown,Romania
+1874,0,2012,"From 14 to 15 years",Unknown,Romania
+1875,0,2010,"From 14 to 15 years",Unknown,Sweden
+1876,0,2011,"From 14 to 15 years",Unknown,Sweden
+1877,0,2012,"From 14 to 15 years",Unknown,Sweden
+1878,0,2010,"From 14 to 15 years",Unknown,Slovenia
+1879,0,2011,"From 14 to 15 years",Unknown,Slovenia
+1880,0,2012,"From 14 to 15 years",Unknown,Slovenia
+1881,0,2010,"From 14 to 15 years",Unknown,Slovakia
+1882,0,2011,"From 14 to 15 years",Unknown,Slovakia
+1883,0,2012,"From 14 to 15 years",Unknown,Slovakia
+1884,0,2010,"From 14 to 15 years",Unknown,Total
+1885,0,2011,"From 14 to 15 years",Unknown,Total
+1886,0,2012,"From 14 to 15 years",Unknown,Total
+1887,0,2010,"From 14 to 15 years",Unknown,"United Kingdom"
+1888,0,2011,"From 14 to 15 years",Unknown,"United Kingdom"
+1889,0,2012,"From 14 to 15 years",Unknown,"United Kingdom"
+1890,0,2010,"From 16 to 17 years",Unknown,Austria
+1891,0,2011,"From 16 to 17 years",Unknown,Austria
+1892,0,2012,"From 16 to 17 years",Unknown,Austria
+1893,0,2010,"From 16 to 17 years",Unknown,Belgium
+1894,0,2011,"From 16 to 17 years",Unknown,Belgium
+1895,0,2012,"From 16 to 17 years",Unknown,Belgium
+1896,0,2010,"From 16 to 17 years",Unknown,Bulgaria
+1897,0,2011,"From 16 to 17 years",Unknown,Bulgaria
+1898,0,2012,"From 16 to 17 years",Unknown,Bulgaria
+1899,0,2010,"From 16 to 17 years",Unknown,Switzerland
+1900,0,2011,"From 16 to 17 years",Unknown,Switzerland
+1901,0,2012,"From 16 to 17 years",Unknown,Switzerland
+1902,0,2010,"From 16 to 17 years",Unknown,Cyprus
+1903,0,2011,"From 16 to 17 years",Unknown,Cyprus
+1904,0,2012,"From 16 to 17 years",Unknown,Cyprus
+1905,0,2010,"From 16 to 17 years",Unknown,Czechia
+1906,0,2011,"From 16 to 17 years",Unknown,Czechia
+1907,0,2012,"From 16 to 17 years",Unknown,Czechia
+1908,0,2010,"From 16 to 17 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+1909,0,2011,"From 16 to 17 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+1910,0,2012,"From 16 to 17 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+1911,0,2010,"From 16 to 17 years",Unknown,Denmark
+1912,0,2011,"From 16 to 17 years",Unknown,Denmark
+1913,0,2012,"From 16 to 17 years",Unknown,Denmark
+1914,0,2010,"From 16 to 17 years",Unknown,Estonia
+1915,0,2011,"From 16 to 17 years",Unknown,Estonia
+1916,0,2012,"From 16 to 17 years",Unknown,Estonia
+1917,0,2010,"From 16 to 17 years",Unknown,Greece
+1918,0,2011,"From 16 to 17 years",Unknown,Greece
+1919,0,2012,"From 16 to 17 years",Unknown,Greece
+1920,0,2010,"From 16 to 17 years",Unknown,Spain
+1921,0,2011,"From 16 to 17 years",Unknown,Spain
+1922,0,2012,"From 16 to 17 years",Unknown,Spain
+1923,0,2010,"From 16 to 17 years",Unknown,"European Union - 27 countries (from 2020)"
+1924,0,2011,"From 16 to 17 years",Unknown,"European Union - 27 countries (from 2020)"
+1925,0,2012,"From 16 to 17 years",Unknown,"European Union - 27 countries (from 2020)"
+1926,0,2010,"From 16 to 17 years",Unknown,"European Union - 28 countries (2013-2020)"
+1927,0,2011,"From 16 to 17 years",Unknown,"European Union - 28 countries (2013-2020)"
+1928,0,2012,"From 16 to 17 years",Unknown,"European Union - 28 countries (2013-2020)"
+1929,0,2010,"From 16 to 17 years",Unknown,Finland
+1930,0,2011,"From 16 to 17 years",Unknown,Finland
+1931,0,2012,"From 16 to 17 years",Unknown,Finland
+1932,0,2010,"From 16 to 17 years",Unknown,France
+1933,0,2011,"From 16 to 17 years",Unknown,France
+1934,0,2012,"From 16 to 17 years",Unknown,France
+1935,0,2010,"From 16 to 17 years",Unknown,Croatia
+1936,0,2011,"From 16 to 17 years",Unknown,Croatia
+1937,0,2012,"From 16 to 17 years",Unknown,Croatia
+1938,0,2010,"From 16 to 17 years",Unknown,Hungary
+1939,0,2011,"From 16 to 17 years",Unknown,Hungary
+1940,0,2012,"From 16 to 17 years",Unknown,Hungary
+1941,0,2010,"From 16 to 17 years",Unknown,Ireland
+1942,0,2011,"From 16 to 17 years",Unknown,Ireland
+1943,0,2012,"From 16 to 17 years",Unknown,Ireland
+1944,0,2010,"From 16 to 17 years",Unknown,Iceland
+1945,0,2011,"From 16 to 17 years",Unknown,Iceland
+1946,0,2012,"From 16 to 17 years",Unknown,Iceland
+1947,0,2010,"From 16 to 17 years",Unknown,Italy
+1948,0,2011,"From 16 to 17 years",Unknown,Italy
+1949,0,2012,"From 16 to 17 years",Unknown,Italy
+1950,0,2010,"From 16 to 17 years",Unknown,Liechtenstein
+1951,0,2011,"From 16 to 17 years",Unknown,Liechtenstein
+1952,0,2012,"From 16 to 17 years",Unknown,Liechtenstein
+1953,0,2010,"From 16 to 17 years",Unknown,Lithuania
+1954,0,2011,"From 16 to 17 years",Unknown,Lithuania
+1955,0,2012,"From 16 to 17 years",Unknown,Lithuania
+1956,0,2010,"From 16 to 17 years",Unknown,Luxembourg
+1957,0,2011,"From 16 to 17 years",Unknown,Luxembourg
+1958,0,2012,"From 16 to 17 years",Unknown,Luxembourg
+1959,0,2010,"From 16 to 17 years",Unknown,Latvia
+1960,0,2011,"From 16 to 17 years",Unknown,Latvia
+1961,0,2012,"From 16 to 17 years",Unknown,Latvia
+1962,0,2010,"From 16 to 17 years",Unknown,Malta
+1963,0,2011,"From 16 to 17 years",Unknown,Malta
+1964,0,2012,"From 16 to 17 years",Unknown,Malta
+1965,0,2010,"From 16 to 17 years",Unknown,Netherlands
+1966,0,2011,"From 16 to 17 years",Unknown,Netherlands
+1967,0,2012,"From 16 to 17 years",Unknown,Netherlands
+1968,0,2010,"From 16 to 17 years",Unknown,Norway
+1969,0,2011,"From 16 to 17 years",Unknown,Norway
+1970,0,2012,"From 16 to 17 years",Unknown,Norway
+1971,0,2010,"From 16 to 17 years",Unknown,Poland
+1972,0,2011,"From 16 to 17 years",Unknown,Poland
+1973,0,2012,"From 16 to 17 years",Unknown,Poland
+1974,0,2010,"From 16 to 17 years",Unknown,Portugal
+1975,0,2011,"From 16 to 17 years",Unknown,Portugal
+1976,0,2012,"From 16 to 17 years",Unknown,Portugal
+1977,0,2010,"From 16 to 17 years",Unknown,Romania
+1978,0,2011,"From 16 to 17 years",Unknown,Romania
+1979,0,2012,"From 16 to 17 years",Unknown,Romania
+1980,0,2010,"From 16 to 17 years",Unknown,Sweden
+1981,0,2011,"From 16 to 17 years",Unknown,Sweden
+1982,0,2012,"From 16 to 17 years",Unknown,Sweden
+1983,0,2010,"From 16 to 17 years",Unknown,Slovenia
+1984,0,2011,"From 16 to 17 years",Unknown,Slovenia
+1985,0,2012,"From 16 to 17 years",Unknown,Slovenia
+1986,0,2010,"From 16 to 17 years",Unknown,Slovakia
+1987,0,2011,"From 16 to 17 years",Unknown,Slovakia
+1988,0,2012,"From 16 to 17 years",Unknown,Slovakia
+1989,0,2010,"From 16 to 17 years",Unknown,Total
+1990,0,2011,"From 16 to 17 years",Unknown,Total
+1991,0,2012,"From 16 to 17 years",Unknown,Total
+1992,0,2010,"From 16 to 17 years",Unknown,"United Kingdom"
+1993,0,2011,"From 16 to 17 years",Unknown,"United Kingdom"
+1994,0,2012,"From 16 to 17 years",Unknown,"United Kingdom"
+1995,0,2010,"Less than 14 years",Unknown,Austria
+1996,0,2011,"Less than 14 years",Unknown,Austria
+1997,0,2012,"Less than 14 years",Unknown,Austria
+1998,0,2010,"Less than 14 years",Unknown,Belgium
+1999,0,2011,"Less than 14 years",Unknown,Belgium
+2000,0,2012,"Less than 14 years",Unknown,Belgium
+2001,0,2010,"Less than 14 years",Unknown,Bulgaria
+2002,0,2011,"Less than 14 years",Unknown,Bulgaria
+2003,0,2012,"Less than 14 years",Unknown,Bulgaria
+2004,0,2010,"Less than 14 years",Unknown,Switzerland
+2005,0,2011,"Less than 14 years",Unknown,Switzerland
+2006,0,2012,"Less than 14 years",Unknown,Switzerland
+2007,0,2010,"Less than 14 years",Unknown,Cyprus
+2008,0,2011,"Less than 14 years",Unknown,Cyprus
+2009,0,2012,"Less than 14 years",Unknown,Cyprus
+2010,0,2010,"Less than 14 years",Unknown,Czechia
+2011,0,2011,"Less than 14 years",Unknown,Czechia
+2012,0,2012,"Less than 14 years",Unknown,Czechia
+2013,0,2010,"Less than 14 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+2014,0,2011,"Less than 14 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+2015,0,2012,"Less than 14 years",Unknown,"Germany (until 1990 former territory of the FRG)"
+2016,0,2010,"Less than 14 years",Unknown,Denmark
+2017,0,2011,"Less than 14 years",Unknown,Denmark
+2018,0,2012,"Less than 14 years",Unknown,Denmark
+2019,0,2010,"Less than 14 years",Unknown,Estonia
+2020,0,2011,"Less than 14 years",Unknown,Estonia
+2021,0,2012,"Less than 14 years",Unknown,Estonia
+2022,0,2010,"Less than 14 years",Unknown,Greece
+2023,0,2011,"Less than 14 years",Unknown,Greece
+2024,0,2012,"Less than 14 years",Unknown,Greece
+2025,0,2010,"Less than 14 years",Unknown,Spain
+2026,0,2011,"Less than 14 years",Unknown,Spain
+2027,0,2012,"Less than 14 years",Unknown,Spain
+2028,0,2010,"Less than 14 years",Unknown,"European Union - 27 countries (from 2020)"
+2029,0,2011,"Less than 14 years",Unknown,"European Union - 27 countries (from 2020)"
+2030,0,2012,"Less than 14 years",Unknown,"European Union - 27 countries (from 2020)"
+2031,0,2010,"Less than 14 years",Unknown,"European Union - 28 countries (2013-2020)"
+2032,0,2011,"Less than 14 years",Unknown,"European Union - 28 countries (2013-2020)"
+2033,0,2012,"Less than 14 years",Unknown,"European Union - 28 countries (2013-2020)"
+2034,0,2010,"Less than 14 years",Unknown,Finland
+2035,0,2011,"Less than 14 years",Unknown,Finland
+2036,0,2012,"Less than 14 years",Unknown,Finland
+2037,0,2010,"Less than 14 years",Unknown,France
+2038,0,2011,"Less than 14 years",Unknown,France
+2039,0,2012,"Less than 14 years",Unknown,France
+2040,0,2010,"Less than 14 years",Unknown,Croatia
+2041,0,2011,"Less than 14 years",Unknown,Croatia
+2042,0,2012,"Less than 14 years",Unknown,Croatia
+2043,0,2010,"Less than 14 years",Unknown,Hungary
+2044,0,2011,"Less than 14 years",Unknown,Hungary
+2045,0,2012,"Less than 14 years",Unknown,Hungary
+2046,0,2010,"Less than 14 years",Unknown,Ireland
+2047,0,2011,"Less than 14 years",Unknown,Ireland
+2048,0,2012,"Less than 14 years",Unknown,Ireland
+2049,0,2010,"Less than 14 years",Unknown,Iceland
+2050,0,2011,"Less than 14 years",Unknown,Iceland
+2051,0,2012,"Less than 14 years",Unknown,Iceland
+2052,0,2010,"Less than 14 years",Unknown,Italy
+2053,0,2011,"Less than 14 years",Unknown,Italy
+2054,0,2012,"Less than 14 years",Unknown,Italy
+2055,0,2010,"Less than 14 years",Unknown,Liechtenstein
+2056,0,2011,"Less than 14 years",Unknown,Liechtenstein
+2057,0,2012,"Less than 14 years",Unknown,Liechtenstein
+2058,0,2010,"Less than 14 years",Unknown,Lithuania
+2059,0,2011,"Less than 14 years",Unknown,Lithuania
+2060,0,2012,"Less than 14 years",Unknown,Lithuania
+2061,0,2010,"Less than 14 years",Unknown,Luxembourg
+2062,0,2011,"Less than 14 years",Unknown,Luxembourg
+2063,0,2012,"Less than 14 years",Unknown,Luxembourg
+2064,0,2010,"Less than 14 years",Unknown,Latvia
+2065,0,2011,"Less than 14 years",Unknown,Latvia
+2066,0,2012,"Less than 14 years",Unknown,Latvia
+2067,0,2010,"Less than 14 years",Unknown,Malta
+2068,0,2011,"Less than 14 years",Unknown,Malta
+2069,0,2012,"Less than 14 years",Unknown,Malta
+2070,0,2010,"Less than 14 years",Unknown,Netherlands
+2071,0,2011,"Less than 14 years",Unknown,Netherlands
+2072,0,2012,"Less than 14 years",Unknown,Netherlands
+2073,0,2010,"Less than 14 years",Unknown,Norway
+2074,0,2011,"Less than 14 years",Unknown,Norway
+2075,0,2012,"Less than 14 years",Unknown,Norway
+2076,0,2010,"Less than 14 years",Unknown,Poland
+2077,0,2011,"Less than 14 years",Unknown,Poland
+2078,0,2012,"Less than 14 years",Unknown,Poland
+2079,0,2010,"Less than 14 years",Unknown,Portugal
+2080,0,2011,"Less than 14 years",Unknown,Portugal
+2081,0,2012,"Less than 14 years",Unknown,Portugal
+2082,0,2010,"Less than 14 years",Unknown,Romania
+2083,0,2011,"Less than 14 years",Unknown,Romania
+2084,0,2012,"Less than 14 years",Unknown,Romania
+2085,0,2010,"Less than 14 years",Unknown,Sweden
+2086,0,2011,"Less than 14 years",Unknown,Sweden
+2087,0,2012,"Less than 14 years",Unknown,Sweden
+2088,0,2010,"Less than 14 years",Unknown,Slovenia
+2089,0,2011,"Less than 14 years",Unknown,Slovenia
+2090,0,2012,"Less than 14 years",Unknown,Slovenia
+2091,0,2010,"Less than 14 years",Unknown,Slovakia
+2092,0,2011,"Less than 14 years",Unknown,Slovakia
+2093,0,2012,"Less than 14 years",Unknown,Slovakia
+2094,0,2010,"Less than 14 years",Unknown,Total
+2095,0,2011,"Less than 14 years",Unknown,Total
+2096,0,2012,"Less than 14 years",Unknown,Total
+2097,0,2010,"Less than 14 years",Unknown,"United Kingdom"
+2098,0,2011,"Less than 14 years",Unknown,"United Kingdom"
+2099,0,2012,"Less than 14 years",Unknown,"United Kingdom"

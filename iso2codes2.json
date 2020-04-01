@@ -1,0 +1,86 @@
+[{
+  "name" : "Afghanistan",
+  "iso2": "AF",
+  "iso3" : "AFG",
+  "numeric": "004"
+},
+{
+  "name" : "Algeria",
+  "iso2": "DZ",
+  "iso3" : "DZA",
+  "numeric": "012"
+},
+{
+  "name" : "Bangladesh",
+  "iso2": "BD",
+  "iso3" : "BGD",
+  "numeric": "050"
+},
+{
+  "name" : "Benin",
+  "iso2": "BJ",
+  "iso3" : "BEN",
+  "numeric": "204"
+},
+
+{
+  "name" : "Burkina Faso",
+  "iso2": "BF",
+  "iso3" : "BFA",
+  "numeric": "854"
+},
+{
+  "name" : "Burundi",
+  "iso2": "BI",
+  "iso3" : "BDI",
+  "numeric": "108"
+},
+
+{
+  "name" : "Cameroon",
+  "iso2": "CM",
+  "iso3" : "CMR",
+  "numeric": "120"
+},
+{
+  "name" : "Colombia",
+  "iso2": "CO",
+  "iso3" : "COL",
+  "numeric": "170"
+},
+{
+  "name" : "Comoros (the)",
+  "iso2": "KM",
+  "iso3" : "COM",
+  "numeric": "174"
+},
+{
+  "name" : "Congo (the Democratic Republic of the)",
+  "iso2": "CD",
+  "iso3" : "COD",
+  "numeric": "180"
+},
+{
+  "name" : "Congo (the)",
+  "iso2": "CG",
+  "iso3" : "COG",
+  "numeric": "178"
+},
+{
+  "name" : "Yemen",
+  "iso2": "YE",
+  "iso3" : "YEM",
+  "numeric": "887"
+},
+{
+  "name" : "Zambia",
+  "iso2": "ZM",
+  "iso3" : "ZMB",
+  "numeric": "894"
+},
+{
+  "name" : "Zimbabwe",
+  "iso2": "ZW",
+  "iso3" : "ZWE",
+  "numeric": "716"
+}]
