@@ -20,8 +20,6 @@ $file = fopen('eurostat_asylum_monthly.csv', 'w');
 /*	Set the column headers for	csv filename */ 
 fputcsv($file, array('Index Num', 'Country of Origin','Country of Origin-ISO2', 'Asylum Data', 'Year', 'Month', 'Age', 'Sex', 'Country of Asylum'));
 
-/*	Since we are running the API for specific country of origin, specify the ISO2 country code below. You can check the webiste https://www.iso.org/obp/ui/#search and take the country code from there. for testing the script, we are using Afghanistan as country of origin.  */
-
 /* here we are using loop to go through number of country of origin stored in json format in the file iso2codes.json in the same root folder */
 /*	ISO 2 country codes are available on multiple websites; e.g. https://www.nationsonline.org/oneworld/country_code_list.htm */
 
@@ -29,12 +27,7 @@ fputcsv($file, array('Index Num', 'Country of Origin','Country of Origin-ISO2', 
 $json = file_get_contents("iso2codes.json");
 $origin_country2 = json_decode($json, true);
 
-
-//$origin_country2=array 	("AF",	"DZ",	"BD",	"BJ",	"BF",	"CM",	"CF",	"TD",	"KM",	"CG",	"CI",	"CD",	"EG",	"GQ",	"ER",	"ET",	"GM",	"GH",	"GN",	"GW",	"IN",	"IR",	"IQ",	"KW",	"LB",	"LY",	"ML",	"MR",	"MA",	"NP",	"NG",	"PK",	"SN",	"SL",	"SO",	"SS",	"LK",	"PS",	"SY",	"TG",	"TN",	"TM","YE");
-
-//$origin_country_name = array ("Afghanistan", "Algeria", "Bangladesh", "Benin", "Burkina Faso", "Cameroon", "African Republic", "Chad", "Comoros", "Congo (Brazzaville)", "Côte d'Ivoire", "Congo, (Kinshasa)", "Egypt", "Guinea","Eritrea", "Ethiopia", "Gambia", "Ghana", "Guinea", "Guinea-Bissau", "India", "Iran, Islamic Republic of", "Iraq", "Kuwait", "Lebanon", "Libya", "Mali", "Mauritania", "Morocco", "Nepal", "Nigeria", "Pakistan", " Senegal", "Sierra Leone", "Somalia", "South Sudan", "Sri Lanka", "State of Palestine", "Syrian Arab Republic", "Togo", "Tunisia", "Turkmenistan", "Yemen");
-
-//$origin_country2=array 	("ER");
+//$origin_country2=array("ER");
 
 //$origin_country_name = array ("Eritrea");
 
@@ -61,9 +54,6 @@ for ($a=0; $a <sizeof($origin_country2); $a++)
 
 	$time_index = 	(array) $result->dimension->time->category->index;
 	$time_label = 	(array) $result->dimension->time->category->label;
-
-
-//	print_r($asylum_data)."<br/>";
 
 
 	/* using the function explodeValues, explode the original array values */

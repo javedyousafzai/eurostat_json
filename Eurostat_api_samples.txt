@@ -3,10 +3,9 @@ API data result structure:
 parameters: Years=4, 
 Sex=4 (Total, Males, Females, Unknown), 
 Age = 5 (Total, Less than 14 years, From 14 to 15 years, From 16 to 17 years, Unknown)
-
-
 */
-API ENtyr point: http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/
+
+API Eetyr point: http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/
 
 http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/mmigr_asyappctzm?citizen=AF&precision=1&sex=T&asyl_app=NASY_APP&unit=PER&age=TOTAL
 
