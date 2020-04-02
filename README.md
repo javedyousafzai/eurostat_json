@@ -1,4 +1,4 @@
-# Eurostat JSON Pull Data
+# Eurostat JSON Pull Data for Asylum data analysis
 These scripts pull data from eurostat API for asylum applications and decisions in the 32 (28 EU+EFTA) countries. Each dataset pull the data and save it in the csv format. 
 
 Each dataset in Eurostat has it unique name we can use to pull data via API
