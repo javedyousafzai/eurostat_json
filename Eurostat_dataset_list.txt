@@ -9,12 +9,12 @@ here is the list;
 6.	Asylum applicants considered to be unaccompanied minors by citizenship, age and sex Annual data (rounded) (migr_asyunaa)
 
 API Dimensions: there are six dimentions you can specify in your API;
- 	1	"citizen",
-    2	"sex",
-    3	"unit",
-    4	"age",
-    5	"geo",
-    6	"time" 
+ 1	"citizen",
+ 2	"sex",
+ 3	"unit",
+ 4	"age",
+ 5	"geo",
+ 6	"time" 
 
 /***    AGE Category or AGE input in the API 	***/	
 "age": 

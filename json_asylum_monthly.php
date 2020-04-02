@@ -63,12 +63,10 @@ for ($a=0; $a <sizeof($origin_country2); $a++)
 	$time_array = explodeValues($time_label);
 
 	/*	sometime there are no asylum figures  against a given year - whihc is empty or ':', therefore, we need to get the fix number of values for asylum array.
-	we can determine the value of asylum array as - Geo array (34) * year array (no of years specificed in API) * sex array (values in the API)* age array(values in the API)
-	e.g. Asylum array values = 34*3*2*2 => 408  */
+	we can determine the value of asylum array as - Geo array (34) * year array (no of years specificed in API) * sex array (values in the API)* age array(values in the API) e.g. Asylum array values = 34*3*2*2 => 408  */
 
 	$asylum_data2 = sizeof($geo_array) * sizeof($time_array) * sizeof($sex_array) * sizeof($age_array);
 	$time_flag = 0;
-
 	
 	$geo_flag = 0;
 	$sex_flag = 0;
