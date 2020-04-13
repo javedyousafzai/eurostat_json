@@ -6,6 +6,11 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* added by Javed for table data*/
+table, th, td {
+  border: 1px solid black;
+}
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -98,7 +103,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: monaco, 'Open Sans', sans-serif;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 150;
@@ -150,7 +155,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: #151515;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -352,7 +357,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 80%;
+			width: 100%;
 		}
 
 		.row > .off-4 {
@@ -1918,7 +1923,8 @@ input, select, textarea {
 	}
 
 		.box.style1 {
-			padding: 3em 2em 3.5em 2em;
+			/*padding: 3em 2em 3.5em 2em;*/
+			padding: 2em 2em 2em 2em;
 		}
 
 			.box.style1 h3 {
@@ -2236,6 +2242,17 @@ input, select, textarea {
 
 	}
 
+/* changes done by javed. Div scrollable properties */
+#div_scroll
+{
+	/*margin:4px, 4px; */
+	/*padding:4px; */
+	height: 120; 
+	overflow-y: scroll
+	text-align:justify; 
+	
+}
+
 /* Small */
 
 	@media screen and (max-width: 736px) {
@@ -2366,11 +2383,7 @@ input, select, textarea {
 					width: auto;
 				}
 
-				.box.style1 {
-					max-width: 32em;
-					margin-left: auto !important;
-					margin-right: auto !important;
-				}
+				
 
 				.box.style2 {
 					max-width: 32em;

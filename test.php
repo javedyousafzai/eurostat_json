@@ -1,28 +1,48 @@
+<html>
+	<head>
+		<title>Eurostat Data via API</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+				<link rel="stylesheet" href="assets/css/main.css" />
+
+	</head>
+	<body>
+
+		<div style="width: 450px; height: 220px; overflow-y: scroll;	text-align:justify;">
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+			<p>test Pictured is a bio-medical test called an antibiogram. Bacteria is grown in a glass lab tray called a petri dish. A range of antibiotics are applied to the dish — each one is labeled with a button.</p>
+			<p>this is test for dev block</p>
+		</div>
+
+	</body>
+</html>
 <?php
 
 // Get the contents of the JSON file 
-$json = file_get_contents("iso2codes2.json");
-$iso2List = json_decode($json, true);
 
 //print sizeof($iso2List);
-
-
-foreach($iso2List as $key=> $value)
-{
-	print "<br>".$iso2List[$key]["name"] ."--".$iso2List[$key]["iso2"]."--". $iso2List[$key]["iso3"];
-}
-
-
-/*
- "name" : "South Africa",
-  "iso2": "ZA",
-  "iso3" : "ZAF",
-  "numeric": "710"
-*/
-/*
-for ($a=0; $a <sizeof($array); $a++)	
-{
-	print "<br>".$array[$a];
-}*/
 
 ?>
