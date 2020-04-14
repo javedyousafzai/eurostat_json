@@ -10,11 +10,5 @@
   "iso2": "BD",
   "iso3" : "BGD",
   "numeric": "050"
-},
-
-{
-  "name" : "Zimbabwe",
-  "iso2": "ZW",
-  "iso3" : "ZWE",
-  "numeric": "716"
-}]
+}
+]

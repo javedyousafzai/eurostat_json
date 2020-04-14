@@ -1,0 +1,12 @@
+
+/* changes done by javed. Div scrollable properties */
+.div_scroll
+{
+	/*margin:4px, 4px; */
+	/*padding:4px; */
+	height: 200px; 
+	width: 400px;
+	overflow: scroll;
+	text-align:justify; 
+	
+}

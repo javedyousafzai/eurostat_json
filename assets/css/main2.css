@@ -165,7 +165,7 @@ input, select, textarea {
 	}
 
 	h2, h3, h4, h5, h6 {
-		font-weight: 510;
+		font-weight: 500;
 	}
 
 	h1 {
@@ -231,7 +231,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(70% - 50px);
-		width: 800px;
+		width: 700px;
 	}
 
 		.container.medium {
@@ -1689,7 +1689,7 @@ input, select, textarea {
 		cursor: pointer;
 		border-radius: 8px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
-	
+		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 		background-color: #43B3E0;
 		padding: 1em 2.35em 1em 2.35em;
@@ -1819,7 +1819,7 @@ input, select, textarea {
 					line-height: 48px;
 					text-align: center;
 					outline: 0;
-				
+					overflow: hidden;
 					text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
 					width: 48px;
 				}
@@ -2243,12 +2243,12 @@ input, select, textarea {
 	}
 
 /* changes done by javed. Div scrollable properties */
-.div_scroll
+#div_scroll
 {
 	/*margin:4px, 4px; */
 	/*padding:4px; */
-	height: 520px; 
-	overflow: scroll;
+	height: 120; 
+	overflow-y: scroll
 	text-align:justify; 
 	
 }

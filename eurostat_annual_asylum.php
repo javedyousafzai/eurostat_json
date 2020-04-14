@@ -14,9 +14,9 @@
 			<nav id="nav">
 				
 				<ul class="container">
-					<li><a href="./">Top</a></li>
+					<li><a href="./">Data</a></li>
 					<li><a href="#guidance">Guidance</a></li>
-					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="visualize.php">Visualize</a></li>
 					<li><a href="#contact">Contact</a></li>
 				</ul>
 			
@@ -35,8 +35,8 @@
 						
 					</header>
 				<!-- Annual Asylum block -->
-					<div class="row aln-center">
-						<div class="col-4">
+					<div>
+						<div>
 							<section class="box style1">
 								<h3>Asylum and first time asylum applicants by citizenship, age and sex Annual aggregated data</h3>
 								<div class="div_scroll">
@@ -226,14 +226,10 @@
 			unset($age_flag); 
 			unset($age_counter_flag); 
 			unset($sex_counter_flag); 
-			
-
 		} 
 		//Close the file
 		fclose($file);
-
-		// country of origin
-
+		
 		/*  Using the explodeValues function, convert API array into string values for further use  */
 			function explodeValues($input_rray)
 			{
@@ -245,6 +241,18 @@
 
 	?>
 			</div>
+
+<?php
+		$filename = "annual_asylum_date.csv";
+		if (file_exists($filename)) 
+		{
+		   print "<p>The script is executed. The <a href=$filename>$filename</a> can be downloaded for further use.</p>";
+		} 
+		else {
+			    echo "The desired file ./$filename is not generated. Give it another try to run the file";
+			}
+
+?>			
 							</section>
 						</div>
 				</div>
