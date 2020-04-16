@@ -8,10 +8,10 @@ Each dataset in Eurostat has it unique name we can use to pull data via API.Here
 4.  First instance decisions on applications by citizenship, age and sex Quarterly data (rounded) 
 
 API Dimensions: Data provided by the API is categorized in those six dimentstions. You can also specify in your API one of those dimensions as your input parameter to filter data ;
- 1	"citizen",
- 2	"sex",
- 3	"unit",
- 4	"age",
- 5	"geo",
- 6	"time" 
+ -	"citizen",
+ -	"sex",
+ -	"unit",
+ -	"age",
+ -	"geo",
+ -	"time" 
  
