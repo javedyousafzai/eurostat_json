@@ -1,17 +1,14 @@
 # Eurostat JSON Pull Data for Asylum data analysis
 These scripts pull data from eurostat API for asylum applications and decisions in the 32 (28 EU+EFTA) countries. Each dataset pull the data and save it in the csv format. 
 
-Each dataset in Eurostat has it unique name we can use to pull data via API
-here is the list;
+Each dataset in Eurostat has it unique name we can use to pull data via API.Here is the list we are using to get the asylum data for EU (28 EU + 4 EFTA);
 
-1.	Asylum and first time asylum applicants by citizenship, age and sex Annual aggregated data (rounded) (#migr_asyappctza)	 
-2.	Asylum and first time asylum applicants by citizenship, age and sex Monthly data (rounded) (#migr_asyappctzm)
-3.	Persons subject of asylum applications pending at the end of the month by citizenship, age and sex Monthly data (rounded) (#migr_asypenctzm)
-4.	Asylum applications withdrawn by citizenship, age and sex Annual aggregated data (rounded) (#migr_asywitha)
-5.	Asylum applications withdrawn by citizenship, age and sex Monthly data (rounded) (#migr_asywithm)	 
-6.	Asylum applicants considered to be unaccompanied minors by citizenship, age and sex Annual data (rounded) (#migr_asyunaa)
+1.		Asylum and first time asylum applicants by citizenship, age and sex Annual aggregated data (rounded) (migr_asyappctza)
+2.  Asylum and first time asylum applicants by citizenship, age and sex Monthly data (rounded) (migr_asyappctzm)
+3.  Asylum applicants considered to be unaccompanied minors by citizenship, age and sex Annual data (rounded) (migr_asyunaa)
+4.  First instance decisions on applications by citizenship, age and sex Quarterly data (rounded) (migr_asydcfstq)
 
-API Dimensions: there are six dimentions you can specify in your API;
+API Dimensions: Data provided by the API is categorized in those six dimentstions. You can also specify in your API one of those dimensions as your input parameter to filter data ;
  1	"citizen",
  2	"sex",
  3	"unit",
