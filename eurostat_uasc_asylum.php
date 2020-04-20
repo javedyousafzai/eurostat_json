@@ -30,17 +30,14 @@
 				<div class="container">
 					<header>
 						<h2>Eurostat Data - API </h2>
-						
-						<?
-						
+							
 					</header>
 				<!-- Annual Asylum block -->
 					<div class="row aln-center">
-						<div class="col-4">
+						<div>
 							<section class="box style1">
 								<h3>Asylum applicants considered to be unaccompanied minors by citizenship, age and sex Annual data</h3>
 								<div class='div_scroll'>
-
 		<?php
 
 		/*get the content from the Eurostat json file for asylum applications and then save the data in the csv file 'eurostat_date.csv'. 
@@ -84,12 +81,15 @@
 				$json = file_get_contents("iso2codes.json");
 				$origin_country2 = json_decode($json, true);
 
+		/*	set the time parameter for the API to retrive the data */
+		$time ="&time=2008&time=2009&time=2010&time=2011&time=2012&time=2013&time=2014&time=2015&time=2016&time=2017&time=2018&time=2019&time=2020";
+
 		//print sizeof($origin_country2);
 		$index=0;
 		for ($a=0; $a <sizeof($origin_country2); $a++)	
 		{	
 			//$url = "http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/migr_asyunaa?citizen=".$origin_country."&precision=1&sex=F&sex=M&unit=PER&age=Y14-15&age=Y16-17&time=2016&time=2017&time=2018";
-			$url = "http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/migr_asyunaa?citizen=".$origin_country2[$a]["iso2"]."&precision=1&unit=PER&time=2008&time=2009&time=2010&time=2011&time=2012&time=2013&time=2014&time=2015&time=2016&time=2017&time=2018&time=2019";
+			$url = "http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/migr_asyunaa?citizen=".$origin_country2[$a]["iso2"]."&precision=1&unit=PER".$time;
 
 			//echo $url."</br>"; 
 
@@ -189,8 +189,9 @@
 							<td>".$sex_array[$sex_flag]."</td>
 							<td>".$geo_array[$geo_flag]."</td>							
 							</tr>";
-						//print "<br>".$sex_array[$sex_flag]. "---".$age_array[$age_flag];
+
 						fputcsv($file, array($index, $origin_country2[$a]["name"],$origin_country2[$a]["iso2"], $asylum_val, $year_array[$year_flag], $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag]));
+						
 					$index++;
 					}
 					$year_flag++;
@@ -257,7 +258,19 @@
 				</div>
 				
 				<div><p></p></div>
+<?php
+				$filename = "eurostat_uasc_data.csv";
+				if (file_exists($filename)) 
+				{
+				   print "<p>The script is executed. The <a href=$filename>$filename</a> can be downloaded for further use.</p>";
+				} 
+				else {
+					    echo "The desired file ./$filename is not generated. Give it another try!";
+					}
 
+
+
+?>
 				
 
 			</article>

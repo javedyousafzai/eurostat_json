@@ -31,8 +31,7 @@
 					<header>
 						<h2>Eurostat Data - API </h2>
 						
-						<?
-						
+											
 					</header>
 				<!-- Annual Asylum block -->
 					<div class="row aln-center">
@@ -79,7 +78,7 @@ $index=0;
 
 for ($a=0; $a <sizeof($origin_country2); $a++)	
 {	
-	$url = "http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/migr_asyappctzm?citizen=".$origin_country2[$a]["iso2"]."&precision=1&asyl_app=NASY_APP&time=2019M01&time=2019M02&time=2019M03";
+	$url = "http://ec.europa.eu/eurostat/wdds/rest/data/v2.1/json/en/migr_asyappctzm?citizen=".$origin_country2[$a]["iso2"]."&precision=1&asyl_app=NASY_APP".$time;
 
 	//	echo $url."</br>"; 
 
@@ -167,20 +166,23 @@ for ($a=0; $a <sizeof($origin_country2); $a++)
 			/* split the value 'time_array' into year and month */	
 			$year = substr($time_array[$time_flag], 0, 4);  
 			$month = substr($time_array[$time_flag], -2);
+			$monthName = date("M", mktime(0, 0, 0, $month, 10));
+
 			
 			if( $asylum_val > 0)
 			{
-			print "<br>".$origin_country2[$a]["iso2"]."--".
+			print "<br>".
+						$index."---".
 						$origin_country2[$a]["name"]."---".
-						$l."----".
-						$year."---".
-						$month."--: ".
+						$origin_country2[$a]["iso2"]."--".
 						$asylum_val."---".
-						$geo_array[$geo_flag]."---".
-						$sex_array[$sex_flag]. "---".
-						$age_array[$age_flag];
-			
-			fputcsv($file, array($index, $origin_country2[$a]["iso2"], $origin_country2[$a]["name"], $asylum_val, $year, $month, $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag]));
+						$year."---".
+						$monthName."--: ".
+						$age_array[$age_flag]."---".
+						$sex_array[$sex_flag]."---".
+						$geo_array[$geo_flag];						
+									
+			fputcsv($file, array($index, $origin_country2[$a]["iso2"], $origin_country2[$a]["name"], $asylum_val, $year, $monthName, $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag]));
 			}
 			$time_flag++;
 			
@@ -245,7 +247,19 @@ fclose($file);
 				</div>
 				
 				<div><p></p></div>
+<?php
+				$filename = "eurostat_asylum_monthly.csv";
+				if (file_exists($filename)) 
+				{
+				   print "<p>The script is executed. The <a href=$filename>$filename</a> can be downloaded for further use.</p>";
+				} 
+				else {
+					    echo "The desired file ./$filename is not generated. Give it another try!";
+					}
 
+
+
+?>
 				
 
 			</article>

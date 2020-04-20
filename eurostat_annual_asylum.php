@@ -31,7 +31,7 @@
 					<header>
 						<h2>Eurostat Data - API </h2>
 						
-						<?
+						
 						
 					</header>
 				<!-- Annual Asylum block -->
@@ -76,9 +76,8 @@
 		$index=0;
 
 		/*	specify the time parameter i.e. the number of years to get the annual first-time asylum data from the API  */
-		$time = "&time=2019";
-
-		//$time = "&time=2018&time=2019";
+		//$time = "&time=2019";
+		$time = "&time=2018&time=2019";
 
 		for ($a=0; $a <sizeof($origin_country2); $a++)	
 		{	
@@ -248,12 +247,12 @@
 		{
 		   print "<p>The script is executed. The <a href=$filename>$filename</a> can be downloaded for further use.</p>";
 		} 
-		else {
-			    echo "The desired file ./$filename is not generated. Give it another try to run the file";
+		else
+			{
+			    echo "The desired file ./$filename is not generated. Give it another try!";
 			}
 
-?>			
-							</section>
+?>				</section>
 						</div>
 				</div>
 				

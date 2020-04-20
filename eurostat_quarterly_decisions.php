@@ -30,9 +30,7 @@
 				<div class="container">
 					<header>
 						<h2>Eurostat Data - API </h2>
-						
-						<?
-						
+																	
 					</header>
 				<!-- Annual Asylum block -->
 					<div class="row aln-center">
@@ -71,10 +69,10 @@
 			$origin_country = json_decode($json, true);
 
 			$index=0;
-
 			/*	specify the time parameter i.e. the number of quartes for the decision API */
 			//$time = "&time=2015Q1&time=2015Q2&time=2015Q3&time=2015Q&time=2016Q1&time=2016Q2&time=2016Q3&time=2016Q4&time=2017Q1&time=2017Q2&time=2017Q3&time=2017Q4&time=2018Q1&time=2018Q2&time=&2018Q3&time=2018Q4&time=2019Q1&time=2019Q2&time=2019Q3&time=2019Q4&time=2020Q1&time=2020Q2&time=2020Q3&time=2020Q4";
 
+			//$time = "&time=2018Q1&time=2018Q2&time=2018Q3&time=2018Q4&time=2019Q1&time=2019Q2&time=2019Q3&time=2019Q4";
 			$time = "&time=2019Q1&time=2019Q2&time=2019Q3&time=2019Q4";
 
 			for ($a=0; $a <sizeof($origin_country); $a++)	
@@ -204,15 +202,15 @@
 									$origin_country[$a]["name"]."--".
 									$origin_country[$a]["iso2"]."--".
 									$decision_val."--".
+									$decision_array[$decision_flag]."--".					
 									$year."--".
 									$quarter."--".
-									$decision_array[$decision_flag]."--".					
-									$geo_array[$geo_flag]."--".
+									$age_array[$age_flag]."--".
 									$sex_array[$sex_flag]."--".
-									$age_array[$age_flag];
-
+									$geo_array[$geo_flag];
+									
 							/* write the data to csv file */		
-							fputcsv($file, array($index, $origin_country[$a]["name"], $origin_country[$a]["iso2"], $decision_val, $year, $quarter, $decision_array[$decision_flag],  $geo_array[$geo_flag],$sex_array[$sex_flag],$age_array[$age_flag]));
+							fputcsv($file, array($index, $origin_country[$a]["name"], $origin_country[$a]["iso2"], $decision_val, $decision_array[$decision_flag], $year, $quarter, $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag]));
 							$index++;
 						}
 							$time_flag++;
@@ -281,7 +279,16 @@
 				
 				<div><p></p></div>
 
-				
+<?php
+				$filename = "eurostat_quarterly_decisions.csv";
+				if (file_exists($filename)) 
+				{
+				   print "<p>The script is executed. The <a href=$filename>$filename</a> can be downloaded for further use.</p>";
+				} 
+				else {
+					    echo "The desired file ./$filename is not generated. Give it another try!";
+					}
+?>				
 
 			</article>
 

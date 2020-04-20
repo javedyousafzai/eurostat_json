@@ -35,7 +35,7 @@
 					<header>
 						<h2>Eurostat Data - API </h2>
 						<p>These scripts pull data from eurostat API for asylum applications and decisions in the 32 (28 EU+EFTA) countries. Each dataset pull the data and save it in the csv format.</p>
-						<?
+						
 						
 					</header>
 				<!-- Annual Asylum block -->
@@ -43,41 +43,40 @@
 						<div style="width: 100%;">
 							<section class="box style1">
 								<h3>Asylum and first time asylum applicants by citizenship, age and sex Annual aggregated data</h3>
-						<?php		
+								<p>
+					<?php		
 						/* if the csv file alredy exists, dispaly it so users can download it. */	
 						$filename = "annual_asylum_date.csv";
 						if (file_exists($filename)) 
 						{
-						   print "<p>Download existing file <a href=$filename>$filename</a> exists Or run the this <a href=eurostat_annual_asylum.php>script</a> to download updated data from Eurostat</p>";
+						   print "Download existing file <a href=$filename>$filename</a>";
 						} 
-						else {
-							    echo "The file ./$filename does not exist";
-							}
+					?>
 
-						?>
+						 To download the data from Eurostat, run the <a href=eurostat_annual_asylum.php>script</a></p>
 							</section>
 						</div>
 				</div>
 				
 				<div><p></p></div>
-
+			
 				<!-- Monthly Asylum block -->					
 					<div class="row aln-center">
 						<div style="width: 100%;">
 							<section class="box style1">
 								<h3>Asylum and first time asylum applicants by citizenship, age and sex Monthly data</h3>
-								<?php		
+								<p>
+							<?php		
 								/* if the csv file for Monthly asylum data  alredy exists, dispaly it so users can download it. */	
 								$monthly_asylum_csv = "eurostat_asylum_monthly.csv";
 								if (file_exists($monthly_asylum_csv)) 
 								{
-								   print "<p>Download existing file <a href=./$monthly_asylum_csv>$monthly_asylum_csv</a> exists Or run the this <a href=eurostat_monthly_asylum.php>script</a> to download updated data from Eurostat</p>";
+								   print "Download existing file <a href=./$monthly_asylum_csv>$monthly_asylum_csv</a>.";
 								} 
-								else {
-									    echo "The file ./$monthly_asylum_csv does not exist";
-									}
+							?>
+									To downlaod the data from Eurostat, run the <a href=eurostat_monthly_asylum.php>script</a></p>  
+									 <!-- To downlaod the data from Eurostat, run the <a href=monthly.php>script</a></p>  -->
 
-								?>
 							</section>
 						</div>
 					</div>
@@ -93,7 +92,7 @@
 								$decisions_csv = "eurostat_quarterly_decisions.csv";
 								if (file_exists($decisions_csv)) 
 								{
-								   print "Download existing file <a href=./$decisions_csv>$decisions_csv</a> exists. ";
+								   print "Download existing file <a href=./$decisions_csv>$decisions_csv</a>. ";
 								} 
 							?>
 								To download the data from Eurostat, run the <a href=eurostat_quarterly_decisions.php>script </a></p>
@@ -113,7 +112,7 @@
 								$unaccompanied_csv = "eurostat_uasc_data.csv";
 								if (file_exists($unaccompanied_csv)) 
 								{
-								   print "Download existing file <a href=./$unaccompanied_csv>$unaccompanied_csv</a> exists. ";
+								   print "Download existing file <a href=./$unaccompanied_csv>$unaccompanied_csv</a>. ";
 								} 
 							?>
 								To download the data from Eurostat, run the <a href=eurostat_uasc_asylum.php>script </a></p>	
