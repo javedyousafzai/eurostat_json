@@ -19,9 +19,9 @@
 				
 				<ul class="container">
 					<li><a href="./">Data</a></li>
-					<li><a href="#guidance">Guidance</a></li>
+					<li><a href="guidance.php">Guidance</a></li>
 					<li><a href="visualize.php">Visualize</a></li>
-					<li><a href="#contact">Contact</a></li>
+			
 				</ul>
 			
 			</nav>
@@ -43,17 +43,7 @@
 						<div style="width: 100%;">
 							<section class="box style1">
 								<h3>Asylum and first time asylum applicants by citizenship, age and sex Annual aggregated data</h3>
-								<p>
-					<?php		
-						/* if the csv file alredy exists, dispaly it so users can download it. */	
-						$filename = "annual_asylum_date.csv";
-						if (file_exists($filename)) 
-						{
-						   print "Download existing file <a href=$filename>$filename</a>";
-						} 
-					?>
-
-						 To download the data from Eurostat, run the <a href=eurostat_annual_asylum.php>script</a></p>
+								<p>Download Annual Asylum Data from 2008 to 2019 in CSV format <a href="Annual_Asylum_data_2008_2019.zip">here</a> [<i>Last extract from Eurostat on 11 May,2020</i>]</p>
 							</section>
 						</div>
 				</div>
@@ -65,18 +55,7 @@
 						<div style="width: 100%;">
 							<section class="box style1">
 								<h3>Asylum and first time asylum applicants by citizenship, age and sex Monthly data</h3>
-								<p>
-							<?php		
-								/* if the csv file for Monthly asylum data  alredy exists, dispaly it so users can download it. */	
-								$monthly_asylum_csv = "eurostat_asylum_monthly.csv";
-								if (file_exists($monthly_asylum_csv)) 
-								{
-								   print "Download existing file <a href=./$monthly_asylum_csv>$monthly_asylum_csv</a>.";
-								} 
-							?>
-									To downlaod the data from Eurostat, run the <a href=eurostat_monthly_asylum.php>script</a></p>  
-									 <!-- To downlaod the data from Eurostat, run the <a href=monthly.php>script</a></p>  -->
-
+											<p>Download Monthly Asylum Data from 2008 to 2020 in CSV format <a href="Monthly_asylum_2008_2020.zip">here</a> [<i>Last extract from Eurostat on 10 May,2020</i>]</p>
 							</section>
 						</div>
 					</div>
@@ -86,40 +65,12 @@
 						<div style="width: 100%;">
 							<section class="box style1">
 								<h3>First instance decisions on applications by citizenship, age and sex Quarterly data decisions</h3>
-								<p>
-							<?php		
-								/* if the csv file for Decisions alredy exists, dispaly it so users can download it. */	
-								$decisions_csv = "eurostat_quarterly_decisions.csv";
-								if (file_exists($decisions_csv)) 
-								{
-								   print "Download existing file <a href=./$decisions_csv>$decisions_csv</a>. ";
-								} 
-							?>
-								To download the data from Eurostat, run the <a href=eurostat_quarterly_decisions.php>script </a></p>
+							<p>Download Asylum Decisions data from 2015 to 2010 in CSV format <a href="Asylum_decisions_2015_2020.zip">here</a> [<i>Last extract from Eurostat on 11 May,2020</i>]</p>
 							</section>
 						</div>
 				</div>
 
 				<div><p></p></div>
-				<!-- UASC Asylum applications -->					
-					<div class="row aln-center">
-						<div style="width: 100%;">
-							<section class="box style1">
-								<h3>	Asylum applicants considered to be unaccompanied minors by citizenship, age and sex Annual data </h3>
-						<p>
-							<?php		
-								/* if the csv file for Unaccompanied asylum data  exists, dispaly it so users can download it. */	
-								$unaccompanied_csv = "eurostat_uasc_data.csv";
-								if (file_exists($unaccompanied_csv)) 
-								{
-								   print "Download existing file <a href=./$unaccompanied_csv>$unaccompanied_csv</a>. ";
-								} 
-							?>
-								To download the data from Eurostat, run the <a href=eurostat_uasc_asylum.php>script </a></p>	
-							</section>
-						</div>
-				</div>
-
 
 			</article>
 
@@ -128,9 +79,12 @@
 		<!-- Guidance block -->
 			<article id="guidance" class="wrapper styl2">
 				<div class="container medium">
-					<section class="box style1">
-						<p>Provide some guidance on how the data from Eurostat is extracted. How the API works and what type of data is extracted via API. Also provide some examples on the API dimensions e.g. Age, Sex, Geo and Decisons, etc.We co go on to show some more guidelines, but the idea is to make people familize with the work we do.</p>
-					</section>
+					<header>
+						<h3>Extracting data from Eurostat via API</h3>
+						<div>
+							<img src="flow.png"  width="600" height="500" alt="Extracting data from Eurostat">
+						</div>
+					</header>
 				</div>
 			</article>
 
@@ -138,13 +92,7 @@
 		<!-- Contact -->
 			<article id="contact" class="wrapper style4">
 				<div class="container medium">
-					
-					<footer>
-						<ul id="copyright">
-							<li>Here we can provide some footer info if we need</li>
-							
-						</ul>
-					</footer>
+					<h3>DIMA - Regional Bureau for Europe</h3>
 				</div>
 			</article>
 

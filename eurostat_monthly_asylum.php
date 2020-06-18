@@ -60,20 +60,25 @@ Dimention of the Eurostat API to get values from arrays
 $file = fopen('eurostat_asylum_monthly.csv', 'w');	
 
 /*	Set the column headers for	csv filename */ 
-fputcsv($file, array('Index Num', 'Country of Origin','Country of Origin-ISO2', 'Asylum Data', 'Year', 'Month', 'Age', 'Sex', 'Country of Asylum'));
+fputcsv($file, array('Index Num', 'Country of Origin','Country of Origin-ISO2', 'Asylum Data', 'Year', 'Month', 'Month No', 'Age', 'Sex', 'Country of Asylum','HCR Regional Bureau'));
 
 /* here we are using loop to go through number of country of origin stored in json format in the file iso2codes.json in the same root folder */
 /*	ISO 2 country codes are available on multiple websites; e.g. https://www.nationsonline.org/oneworld/country_code_list.htm */
 
 // Get the contents of the JSON file 
-$json = file_get_contents("iso2codes.json");
+$json = file_get_contents("iso2codesnew.json");
 $origin_country2 = json_decode($json, true);
 
 //$origin_country2=array("ER");
 
 //$origin_country_name = array ("Eritrea");
 
-$time = "&time=2019M01&time=2019M02&time=2019M03&time=2019M04&time=2019M05&time=2019M06&time=2019M07&time=2019M08&time=2019M09&time=2019M10&time=2019M11&time=2019M12";
+//$time = "&time=2019M01";
+
+//$time = "&time=2018M01&time=2018M02&time=2018M03&time=2018M04&time=2018M05&time=2018M06&time=2018M07&time=2018M08&time=2018M09&time=2018M10&time=2018M11&time=2018M12";
+
+$time = "&time=2020M01&time=2020M02&time=2020M03&time=2020M04";
+
 $index=0;
 
 for ($a=0; $a <sizeof($origin_country2); $a++)	
@@ -83,149 +88,152 @@ for ($a=0; $a <sizeof($origin_country2); $a++)
 	//	echo $url."</br>"; 
 
 	$result = json_decode(file_get_contents($url));
-	$asylum_data =	(array) $result->value;
-	$country_ISO2 = (array) $result->dimension->geo->category->index;
-	$country_name = (array) $result->dimension->geo->category->label;
-
-	$sex_id = 		(array) $result->dimension->sex->category->index;
-	$sex_label = 	(array) $result->dimension->sex->category->label;
-
-	$age_id = 		(array) $result->dimension->age->category->index;
-	$age_label = 	(array) $result->dimension->age->category->label;
-
-	$time_index = 	(array) $result->dimension->time->category->index;
-	$time_label = 	(array) $result->dimension->time->category->label;
-
-	/* using the function explodeValues, explode the original array values */
-	$geo_array = explodeValues($country_name);
-	$sex_array = explodeValues($sex_label);
-	$age_array = explodeValues($age_label);
-	$time_array = explodeValues($time_label);
-
-	/*	sometime there are no asylum figures  against a given year - whihc is empty or ':', therefore, we need to get the fix number of values for asylum array.
-	we can determine the value of asylum array as - Geo array (34) * year array (no of years specificed in API) * sex array (values in the API)* age array(values in the API) e.g. Asylum array values = 34*3*2*2 => 408  */
-
-	$asylum_data2 = sizeof($geo_array) * sizeof($time_array) * sizeof($sex_array) * sizeof($age_array);
-	$time_flag = 0;
+	If(!empty($result))
+	{
+		$asylum_data =	(array) $result->value;
 	
-	$geo_flag = 0;
-	$sex_flag = 0;
-	$thrshld_age = intval(sizeof($geo_array)) * intval(sizeof($time_array));
-	$thrshld_sex = intval(sizeof($geo_array)) * intval(sizeof($time_array)) * intval(sizeof($age_array));
+		$country_ISO2 = (array) $result->dimension->geo->category->index;
+		$country_name = (array) $result->dimension->geo->category->label;
 
-	$age_flag = 0;
-	$age_counter_flag = 1;
-	$sex_counter_flag = 1;
+		$sex_id = 		(array) $result->dimension->sex->category->index;
+		$sex_label = 	(array) $result->dimension->sex->category->label;
 
-	for ($l=0; $l < $asylum_data2; $l++)	
-		{
-			/*	check wather the value from asylum array is numeric or not)  */
-			if (isset($asylum_data[$l]))
-			{
-				$asylum_val = $asylum_data[$l];
-			}
-			elseif(empty($asylum_data[$l]) )
-			{
-				$asylum_val = 0;	
-			}
-			else
-			{
-				$asylum_val = 0;	
-			}
+		$age_id = 		(array) $result->dimension->age->category->index;
+		$age_label = 	(array) $result->dimension->age->category->label;
 
-			/*	Calculations for Age array */
-			if($l == $thrshld_age * $age_counter_flag)
-			{
-				$age_flag++;	
+		$time_index = 	(array) $result->dimension->time->category->index;
+		$time_label = 	(array) $result->dimension->time->category->label;
 
-				if(!isset($age_array[$age_flag]))
+		/* using the function explodeValues, explode the original array values */
+		$geo_array = explodeValues($country_name);
+		$sex_array = explodeValues($sex_label);
+		$age_array = explodeValues($age_label);
+		$time_array = explodeValues($time_label);
+
+		/*	sometime there are no asylum figures  against a given year - whihc is empty or ':', therefore, we need to get the fix number of values for asylum array.
+		we can determine the value of asylum array as - Geo array (34) * year array (no of years specificed in API) * sex array (values in the API)* age array(values in the API) e.g. Asylum array values = 34*3*2*2 => 408  */
+
+		$asylum_data2 = sizeof($geo_array) * sizeof($time_array) * sizeof($sex_array) * sizeof($age_array);
+		$time_flag = 0;
+		
+		$geo_flag = 0;
+		$sex_flag = 0;
+		$thrshld_age = intval(sizeof($geo_array)) * intval(sizeof($time_array));
+		$thrshld_sex = intval(sizeof($geo_array)) * intval(sizeof($time_array)) * intval(sizeof($age_array));
+
+		$age_flag = 0;
+		$age_counter_flag = 1;
+		$sex_counter_flag = 1;
+
+
+		for ($l=0; $l < $asylum_data2; $l++)	
+			{
+				/*	check wather the value from asylum array is numeric or not)  */
+				if (isset($asylum_data[$l]))
 				{
-					$age_flag = 0;				
+					$asylum_val = $asylum_data[$l];
 				}
-				$age_counter_flag++;
-			}
-
-			/*	Calculations Sex array */
-			if($l == $thrshld_sex * $sex_counter_flag)
-			{
-				$sex_flag++;	
-
-				if(!isset($sex_array[$sex_flag]))
+				elseif(empty($asylum_data[$l]) )
 				{
-					$sex_flag = 0;				
+					$asylum_val = 0;	
 				}
-				$sex_counter_flag++;
+				else
+				{
+					$asylum_val = 0;	
+				}
+
+				/*	Calculations for Age array */
+				if($l == $thrshld_age * $age_counter_flag)
+				{
+					$age_flag++;	
+
+					if(!isset($age_array[$age_flag]))
+					{
+						$age_flag = 0;				
+					}
+					$age_counter_flag++;
+				}
+
+				/*	Calculations Sex array */
+				if($l == $thrshld_sex * $sex_counter_flag)
+				{
+					$sex_flag++;	
+
+					if(!isset($sex_array[$sex_flag]))
+					{
+						$sex_flag = 0;				
+					}
+					$sex_counter_flag++;
+				}
+
+				/*	Calculations for Geo (country of asylum) array */
+				if ($geo_flag == 35)
+				{
+					$geo_flag = 0;
+				}
+
+				/* split the value 'time_array' into year and month */	
+				$year = substr($time_array[$time_flag], 0, 4);  
+				$month = substr($time_array[$time_flag], -2);
+				$monthName = date("M", mktime(0, 0, 0, $month, 10));
+
+				
+				if( $asylum_val > 0)
+				{
+				print "<br>".
+							$index."---".
+							$origin_country2[$a]["name"]."---".
+							$origin_country2[$a]["iso2"]."--".
+							$asylum_val."---".
+							$year."---".
+							$monthName."--: ".
+							$month."--: ".
+							$age_array[$age_flag]."---".
+							$sex_array[$sex_flag]."---".
+							$geo_array[$geo_flag]."---".						
+							$origin_country2[$a]["unhcr_region"];
+										
+				fputcsv($file, array($index, $origin_country2[$a]["iso2"], $origin_country2[$a]["name"], $asylum_val, $year, $monthName, intval($month), $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag],$origin_country2[$a]["unhcr_region"]));
+				}
+				$time_flag++;
+				
+				/*	Calculations for Year array */
+				if($time_flag == intval(sizeof($time_array)))
+				{
+					$time_flag=0;
+					$geo_flag++;
+				}
+				$index++;
 			}
 
-			/*	Calculations for Geo (country of asylum) array */
-			if ($geo_flag == 35)
-			{
-				$geo_flag = 0;
-			}
+		/*	Reset all the variables declared above to loop thrugh another instance of country of origin value;*/
+		unset($result);
+		unset($asylum_data);
+		unset($country_ISO2);
+		unset($country_name);
+		unset($sex_id);
+		unset($sex_label);
+		unset($age_id);
+		unset($age_label);
+		unset($time_index);
+		unset($time_label); 
+		unset($geo_array); 
+		unset($sex_array); 
+		unset($age_array); 
+		unset($time_array); 
+		unset($asylum_data2); 
+		unset($time_flag); 
 
-			/* split the value 'time_array' into year and month */	
-			$year = substr($time_array[$time_flag], 0, 4);  
-			$month = substr($time_array[$time_flag], -2);
-			$monthName = date("M", mktime(0, 0, 0, $month, 10));
+		//unset($index);
+		unset($geo_flag);
+		unset($sex_flag); 
+		unset($thrshld);
+		unset($sex_thrshld); 
 
-			
-			if( $asylum_val > 0)
-			{
-			print "<br>".
-						$index."---".
-						$origin_country2[$a]["name"]."---".
-						$origin_country2[$a]["iso2"]."--".
-						$asylum_val."---".
-						$year."---".
-						$monthName."--: ".
-						$age_array[$age_flag]."---".
-						$sex_array[$sex_flag]."---".
-						$geo_array[$geo_flag];						
-									
-			fputcsv($file, array($index, $origin_country2[$a]["iso2"], $origin_country2[$a]["name"], $asylum_val, $year, $monthName, $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag]));
-			}
-			$time_flag++;
-			
-			/*	Calculations for Year array */
-			if($time_flag == intval(sizeof($time_array)))
-			{
-				$time_flag=0;
-				$geo_flag++;
-			}
-			$index++;
-		}
-
-	/*	Reset all the variables declared above to loop thrugh another instance of country of origin value;*/
-	unset($result);
-	unset($asylum_data);
-	unset($country_ISO2);
-	unset($country_name);
-	unset($sex_id);
-	unset($sex_label);
-	unset($age_id);
-	unset($age_label);
-	unset($time_index);
-	unset($time_label); 
-	unset($geo_array); 
-	unset($sex_array); 
-	unset($age_array); 
-	unset($time_array); 
-	unset($asylum_data2); 
-	unset($time_flag); 
-
-	//unset($index);
-	unset($geo_flag);
-	unset($sex_flag); 
-	unset($thrshld);
-	unset($sex_thrshld); 
-
-	unset($age_flag); 
-	unset($age_counter_flag); 
-	unset($sex_counter_flag); 
-	
-	//print "<p></p>";
-	
-
+		unset($age_flag); 
+		unset($age_counter_flag); 
+		unset($sex_counter_flag); 
+	}	
 } 
 //Close the file
 fclose($file);

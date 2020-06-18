@@ -61,13 +61,13 @@
 		$file = fopen('annual_asylum_date.csv', 'w');	
 
 		/*	Set the column headers for	csv filename */ 
-		fputcsv($file, array('Index Num', 'Country of Origin','Country of Origin-ISO2', 'Asylum Data', 'Year', 'Age', 'Sex', 'Country of Asylum'));
+		fputcsv($file, array('Index Num', 'Country of Origin','Country of Origin-ISO2', 'Asylum Data', 'Year', 'Age', 'Sex', 'Country of Asylum', 'HCR Regional Bureau'));
 
 		/* here we are using loop to go through number of country of origin stored in json format in the file iso2codes.json in the same root folder */
 		/*	ISO 2 country codes are available on multiple websites; e.g. https://www.nationsonline.org/oneworld/country_code_list.htm */
 
 		// Get the contents of the JSON file 
-		$json = file_get_contents("iso2codes.json");
+		$json = file_get_contents("iso2codesnew.json");
 		$origin_country2 = json_decode($json, true);
 
 		//$origin_country2=array 	("AF");
@@ -175,6 +175,8 @@
 						$geo_flag = 0;
 					}
 
+					if($asylum_value > 0)
+					{
 					print "<br>".$index."--".
 							$origin_country2[$a]["name"]."--".
 							$origin_country2[$a]["iso2"]."--".
@@ -182,10 +184,11 @@
 							$time_array[$time_flag]."--".
 							$age_array[$age_flag]."--".
 							$sex_array[$sex_flag]."--".
-							$geo_array[$geo_flag];
+							$geo_array[$geo_flag]."--".
+							$origin_country2[$a]["unhcr_region"];
 							
-					fputcsv($file, array($index, $origin_country2[$a]["name"], $origin_country2[$a]["iso2"], $asylum_value, $time_array[$time_flag], $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag]));
-					
+					fputcsv($file, array($index, $origin_country2[$a]["name"], $origin_country2[$a]["iso2"], $asylum_value, $time_array[$time_flag], $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag],$origin_country2[$a]["unhcr_region"]));
+					}
 					$time_flag++;
 					
 					/*	Calculations for time array */

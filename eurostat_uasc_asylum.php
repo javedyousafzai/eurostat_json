@@ -68,7 +68,9 @@
 				<td>Year</td> 
 				<td>Age</td> 
 				<td>Sex</td> 
-				<td>Country of Asylum</td></tr>
+				<td>Country of Asylum</td>
+				<td>HCR Regional Bureau</td>
+			</tr>
 <?php				
 
 		/*	Since we are running the API for specific country of origin, specify the ISO2 country code below. You can check the webiste https://www.iso.org/obp/ui/#search and take the country code from there. for testing the script, we are using Afghanistan as country of origin.  */
@@ -78,7 +80,7 @@
 			
 
 				// Get the contents of the JSON file 
-				$json = file_get_contents("iso2codes.json");
+				$json = file_get_contents("iso2codesnew.json");
 				$origin_country2 = json_decode($json, true);
 
 		/*	set the time parameter for the API to retrive the data */
@@ -188,9 +190,11 @@
 							<td>".$age_array[$age_flag]."</td>
 							<td>".$sex_array[$sex_flag]."</td>
 							<td>".$geo_array[$geo_flag]."</td>							
+							<td>".$origin_country2[$a]["unhcr_region"]."</td>	
+							
 							</tr>";
 
-						fputcsv($file, array($index, $origin_country2[$a]["name"],$origin_country2[$a]["iso2"], $asylum_val, $year_array[$year_flag], $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag]));
+						fputcsv($file, array($index, $origin_country2[$a]["name"],$origin_country2[$a]["iso2"], $asylum_val, $year_array[$year_flag], $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag],$origin_country2[$a]["unhcr_region"]));
 						
 					$index++;
 					}

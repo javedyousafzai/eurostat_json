@@ -59,21 +59,22 @@
 			$file = fopen('eurostat_quarterly_decisions.csv', "w");	
 
 			/*	Set the column headers for the csv filename */ 
-			fputcsv($file, array('Index Num', 'Country of Origin','Country of Origin-ISO2', 'Decision Data', 'decision Type', 'Year', 'Quarter', 'Age', 'Sex', 'Country of Asylum'));
+			fputcsv($file, array('Index Num', 'Country of Origin','Country of Origin-ISO2', 'Decision Data', 'decision Type', 'Year', 'Quarter', 'Age', 'Sex', 'Country of Asylum','HCR Regional Bureau'));
 
 			/* here we are using loop to go through number of country of origin stored in json format in the file iso2codes.json in the same root folder */
 			/*	ISO 2 country codes are available on multiple websites; e.g. https://www.nationsonline.org/oneworld/country_code_list.htm */
 
 			// Get the contents of the JSON file 
-			$json = file_get_contents("iso2codes.json");
+			$json = file_get_contents("iso2codesnew.json");
 			$origin_country = json_decode($json, true);
 
 			$index=0;
 			/*	specify the time parameter i.e. the number of quartes for the decision API */
 			//$time = "&time=2015Q1&time=2015Q2&time=2015Q3&time=2015Q&time=2016Q1&time=2016Q2&time=2016Q3&time=2016Q4&time=2017Q1&time=2017Q2&time=2017Q3&time=2017Q4&time=2018Q1&time=2018Q2&time=&2018Q3&time=2018Q4&time=2019Q1&time=2019Q2&time=2019Q3&time=2019Q4&time=2020Q1&time=2020Q2&time=2020Q3&time=2020Q4";
 
-			//$time = "&time=2018Q1&time=2018Q2&time=2018Q3&time=2018Q4&time=2019Q1&time=2019Q2&time=2019Q3&time=2019Q4";
-			$time = "&time=2019Q1&time=2019Q2&time=2019Q3&time=2019Q4";
+			//$time = "&time=2015Q1&time=2015Q2&time=2015Q3&time=2015Q4&time=2016Q1&time=2016Q2&time=2016Q3&time=2016Q4";
+			//$time = "&time=2019Q1&time=2019Q2&time=2019Q3&time=2019Q4";
+			$time = "&time=2020Q1";
 
 			for ($a=0; $a <sizeof($origin_country); $a++)	
 			{	
@@ -207,10 +208,12 @@
 									$quarter."--".
 									$age_array[$age_flag]."--".
 									$sex_array[$sex_flag]."--".
-									$geo_array[$geo_flag];
+									$geo_array[$geo_flag]."--".
+									$origin_country[$a]["unhcr_region"];		
+;
 									
 							/* write the data to csv file */		
-							fputcsv($file, array($index, $origin_country[$a]["name"], $origin_country[$a]["iso2"], $decision_val, $decision_array[$decision_flag], $year, $quarter, $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag]));
+							fputcsv($file, array($index, $origin_country[$a]["name"], $origin_country[$a]["iso2"], $decision_val, $decision_array[$decision_flag], $year, $quarter, $age_array[$age_flag], $sex_array[$sex_flag], $geo_array[$geo_flag],$origin_country[$a]["unhcr_region"]));
 							$index++;
 						}
 							$time_flag++;

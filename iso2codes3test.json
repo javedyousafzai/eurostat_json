@@ -1,14 +1,18 @@
-[{
-  "name" : "Afghanistan",
-  "iso2": "AF",
-  "iso3" : "AFG",
-  "numeric": "004"
+[
+{
+	"name":"Puerto Rico",
+	"iso2":"PR",
+	"iso3":"PRI",
+	"unhcr_region":"Americas",
+	"numeric":"630"
 },
 
-{
-  "name" : "Bangladesh",
-  "iso2": "BD",
-  "iso3" : "BGD",
-  "numeric": "050"
+{	
+	"name":"Afghanistan",
+	"iso2":"AF",
+	"iso3":"AFG",
+	"unhcr_region":"Asia & Pacific",
+	"numeric":"4"
 }
+
 ]

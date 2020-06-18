@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Eurostat Data via API</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+		<!-- Nav -->
+			<nav id="nav">
+				
+				<ul class="container">
+					<li><a href="./">Data</a></li>
+					<li><a href="guideline2.htm">Guidance</a></li>
+					<li><a href="visualize.php">Visualize</a></li>
+					
+				</ul>
+			
+			</nav>
+
+		<!-- Home -->
+			
+
+		<!-- Eurostat API Introduction  -->
+			<article id="work" class="wrapper style3">
+				<div>
+					<h2>PowerBi - User Guidelines </h2>
+						<p>These guidelines should hlep new comers get started with basic interactive data visualizations in PowerBi.</p>
+									</div>								
+					
+
+			</article>
+
+		<!-- Work -->
+			<article id="intro" class="wrapper style2">
+				<div class="container">
+					<header>
+												
+						<iframe src="pbiguidelines.pdf" width="900" height="900" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+					</header>
+
+
+				</div>
+			</article>
+		<!-- Contact -->
+			
+
+		
+
+	</body>
+</html>
